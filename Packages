@@ -16,6 +16,40 @@ Name: Active 1429 4G iOS9/10
 Author: ABCydia <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: cn.agricu.dumpdecrypter
+Architecture: iphoneos-arm
+Version: 1.1-9
+Section: Tweaks
+Maintainer: Nets
+Depends: firmware (>= 11.0), mobilesubstrate
+Replaces: netskao.bfdecrypt
+Filename: ./debfiles//cn.agricu.dumpdecrypter_1.1-9_iphoneos-arm.deb
+Size: 303474
+MD5sum: f23188c82e4767f4072b805816cf59ac
+SHA1: 128e3b14f1f330e0b5fa1d3cb7ed6f5512266a49
+SHA256: 7468f1e319b9932ffcc94e911d3b5fc879f9102189ae72b92f9cb366af14d965
+SHA512: bf7e5c2a2ab791fcc15643ebf3eb6b6a22b8a6071a2d41ba9993cb10aa181025f020dd8f83cca8d007af77d57f309b036b80ff0c281cf6fc42ff4e02798354dd
+Description: Dump Decrypter是一个针对bfdecrypt砸壳程序封装，主要对Odyssey环境支持，十分类似于CrackerXI，通过桌面的Dump Decrypter应用程序选择需要解密的应用
+Name: Dump Decrypter
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.dumpdecrypter
+Author: BishopFox / Netskao
+
+Package: cn.agricu.ios10lstu
+Architecture: iphoneos-arm
+Version: 0.0.1-13+debug
+Section: Tweaks
+Depends: firmware (>= 10.0), mobilesubstrate, firmware (<= 10.3.3)
+Filename: ./debfiles//cn.agricu.ios10lstu_0.0.1-13+debug_iphoneos-arm.deb
+Size: 6384
+MD5sum: 62e06f2e713a6ef9c7b401e45b4691d1
+SHA1: 6ce84f35996c57e5c6ae68207684c8f6686d3612
+SHA256: 08812a4fc73996a308dbb7b3bd741fdcb904f5d13ad7608cb8d58435849fc25f
+SHA512: 6ce091a8d47ca57e694cea294a674e07ce9297d31dc64d859081c7a1228d92dd6ed9b61feeff34d9c0eb3230762bddcb809b132109f8a3ac7265c72e9a10a58e
+Description: 重回iOS9滑动解锁
+Name: LegacySlideToUnlock
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.ios10lstu
+Author: CP Digital Darkroom
+
 Package: cn.agricu.mterminal
 Architecture: iphoneos-arm
 Version: 1.4-6
@@ -34,6 +68,47 @@ Description: 运行在iOS 上的手机终端
 Name: MTerminal 手机终端
 Author: lordscotland <admin@officialscheduler.com>
 Sponsor: Agricu <http://repo.agricu.cn>
+
+Package: cn.agricu.touchflow
+Architecture: iphoneos-arm
+Version: 1.0.6
+Priority: optional
+Section: Tweaks
+Maintainer: CreatureSurvive <support@creaturecoding.com>
+Installed-Size: 820
+Pre-Depends: firmware (>= 11.0), mobilesubstrate | com.ex.libsubstitute
+Depends: com.creaturesurvive.libcscolorpicker
+Filename: ./debfiles//cn.agricu.touchflow_1.0.6_iphoneos-arm.deb
+Size: 211640
+MD5sum: 95755d7d67d76bf0fd3c539a2eda09c2
+SHA1: 92f60844a3b0242bc95704234e97695a7836f033
+SHA256: 20307537b828d4d18d1d1ce0f1047568d4166bd33b3a68008151a17cbe341ae7
+SHA512: 9132ff2dbd3afb4bafd3aa149b552d546a08d8c1308c0f530c63167d008c7cf46f58efb69d454e7cad9eab3730bcf54ac126ffcb24195f0103a88491c218d650
+Description: Show your touches on the screen
+	customizable tool to show your touches on the screen
+    allows for showing touch force on supported devices
+Tag: purpose::extension, compatible_min::iosiOS11
+Name: TouchFlow触摸轨迹
+Author: CreatureSurvive <support@creaturecoding.com>
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.touchflow
+
+Package: cn.agricu.vsz.redeb
+Architecture: iphoneos-arm
+Version: 1.0.3
+Priority: extra
+Section: Utilities
+Maintainer: T.Herak
+Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p)
+Filename: ./debfiles//cn.agricu.vsz.redeb_1.0.3_iphoneos-arm.deb
+Size: 3626
+MD5sum: 4ecbb374c939eac3686407fc2ad8d1e1
+SHA1: 8a7ff216364beab874471c4f5aa93b68a18f6126
+SHA256: b42727bdf7c359e19212ae0445a304b282f54107cd9fde79b46bb29e7476802b
+SHA512: 13edfcff8f73b9bd9b6615406445cbbbae62281add8ce309cac29e30c30b82fec58cd43d89373e9d2ac0e33f0cf8cad2668adbbeb15a58b8eefdfc3b03d37633
+Description: 已安装的DEB文件提取插件
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
+Name: Redeb 提取本地插件
+Author: T.Herak
 
 Package: com.a3tweaks.flipswitch
 Architecture: iphoneos-arm
@@ -96,6 +171,30 @@ Name: FlipControl 控制中心增强
 Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 Icon: file:///System/Library/CoreServices/SpringBoard.app/controlcenter.png
+
+Package: com.clezz.powerdown
+Architecture: iphoneos-arm
+Version: 1.0.5
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 474
+Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.gjbsoftware.gpowerpro
+Filename: ./debfiles//com.clezz.powerdown_1.0.5_iphoneos-arm.deb
+Size: 36966
+MD5sum: b203cc4c1ce9ef056835f13ca9e4bbb1
+SHA1: 5a600fbc92cd04651b88f36b00fd0654d454520a
+SHA256: 455ade7f3a61ec579d9fd032520aebb738fdfaaa80fc4a891d43938e63e13d23
+SHA512: 05c6f49ccda9f2c8660eb2321edb215066868481d45752ac13f36b9b34c2b80ab9c1625a9bd62e272bdb323ade0d4b4e730caa1fa57787c6d85dade526397732
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=powerdownquickdoDp
+Description: Show power down view via gestures and add reboot, respring, safe mode slider to power down view.
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: Ma Jun <majun3@gmail.com>
+Name: PowerDown
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=powerdownquickdoDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: clezz
+Icon: file:///Library/QuickDo/Actions/com.clezz.powerdown/Icon@2x.png
 
 Package: com.haoerloveyou.ccpatch
 Architecture: iphoneos-arm
@@ -507,6 +606,23 @@ Name: Cydia Substrate
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
+Package: netskao.goodwifi
+Architecture: iphoneos-arm
+Version: 0.0~beta6
+Section: Netskao-插件
+Maintainer: Nets
+Installed-Size: 540
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles//netskao.goodwifi_0.0~beta6_iphoneos-arm.deb
+Size: 98602
+MD5sum: 2953f0cf401e0e7c903a01c3745ae686
+SHA1: ea10cd46b63b9c037eddea2880df37654a510ea8
+SHA256: cf448159b7b876ee0f2a50d7e329f268844edce10ca6001e1b513667a77084d9
+SHA512: 827e8db36bbc4e589e77017c68b2e2e6964f8b04c60c76d75c118b9c865506947ed9c8ef312e49a0d313e9566acb53f3a24a323ee3d50652d8ab835e6505af50
+Description: GoodWiFi简体中文汉化版
+Name: GoodWiFi
+Author: julioverne
+
 Package: openssh
 Architecture: iphoneos-arm
 Version: 6.7p1-13
@@ -559,6 +675,28 @@ SHA256: 0e57f4b5968fc32c1fb56c1361d163a1ffdcda9173145551aff839cfc19be664
 SHA512: 6ece4b6fde15ed68c17d16f3590fbbbc928eba2cbb3936283f940663dc654822638667e72eb3e9dde782b138270daa81a1b96c4bf74604602594825c03d3cd7f
 Description: SSL library and cryptographic tools
 Name: OpenSSL
+
+Package: org.thebigboss.dismissprogress
+Architecture: iphoneos-arm
+Version: 1.0.3
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 150
+Depends: mobilesubstrate, firmware (>= 3.0), cydia (>= 1.1.19)
+Filename: ./debfiles//org.thebigboss.dismissprogress_1.0.3_iphoneos-arm.deb
+Size: 6030
+MD5sum: 23b3321aeab6d8efddf51918b013001a
+SHA1: f810aa48be46e6e2355bf075000312c41e7b9ee3
+SHA256: c8cff6ed98b629e0ecbd4138eb57f5aeba9a974e4d4d62edb2d6d2dff8e5854c
+SHA512: e1cd94677524fad9d64843345c85e57e7d203d798ad0234474b345d78482d06e8d47390e1070cab2198cc173ddb4de84d19c28b2f5eae79652ebc760ec41e276
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dismissprogressDp
+Description: Dismiss Cydia'a installation window without closing cydia.
+Tag: purpose::extension, role::enduser, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Author: PoomSmart <poomst@hotmail.com>
+Name: DismissProgress
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dismissprogressDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: poomst
 
 Package: org.tihmstar.kDFUApp
 Architecture: iphoneos-arm
@@ -623,6 +761,26 @@ Name: PreferenceLoader
 Author: Sam Bingner
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: ru.rejail.limneosos
+Architecture: iphoneos-arm
+Version: 2.0.2
+Priority: optional
+Section: Tweaks
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 212
+Depends: mobilesubstrate
+Filename: ./debfiles//ru.rejail.limneosos_2.0.2_iphoneos-arm.deb
+Size: 23932
+MD5sum: 82e3784afb0f404e95dc9ed8c65a18ee
+SHA1: 231f7feedac2e4680912b0e2d11ab31c7a7a0901
+SHA256: 874250a939b8ccd0276f1fdff6c6a8b0249bb3cff5b56faf8aeb35caea43f46a
+SHA512: e68f5cf685ec0b74124ef3d04f3cf6dceb28574fc8c5303239c40bcc0088cc02a3c5b29c5c80c8adef19325ba374ae2cd9a7db30ee6ccfd2f2f71b2c26851e98
+Description: Название само говорит за себя
+Name: Limneosos
+Author: ReJail <rejail@rejail.ru>
+Depiction: https://rejail.ru/depiction.php?file=limneosos
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=limneosos
+
 Package: unrar
 Architecture: iphoneos-arm
 Version: 3.6.8-2p
@@ -654,6 +812,23 @@ SHA256: 04329d078f3394dbb72abe9f19c893a178ecc22704342efbedf0c9021a9cbdf8
 SHA512: d74b54e7d39a6ed628ecbb6aff5fdaea9eee5753c00c8463d6b494ba557dae44973e83f869eb266992ccf2f26cb873047a6b64842fbb303ee8809d423ce02e50
 Description: de-compesses files in zip format
 
+Package: xyz.xninja.systeminfo
+Architecture: iphoneos-arm
+Version: 2.7.2-2
+Section: Tweaks
+Maintainer: ARX8x
+Depends: mobilesubstrate
+Filename: ./debfiles//xyz.xninja.systeminfo_2.7.2-2_iphoneos-arm.deb
+Size: 427612
+MD5sum: 26267e8c4797962bd17d57670951021b
+SHA1: 54b7685148da7e599f42429d3a7d4d721b9a8aad
+SHA256: 7b27623082c52e8ce6a2dd990169b49f6f3445e6d95012384b461c8e4b9a20cc
+SHA512: 4995c29cc9b3ffb96f27879df1d7eaa9824f8560302506b6adb905516980fdae132428cdc5dab92b1b19d2f0f473e06cf90562965debfcfc7950360c7ec8aa97
+Description: System information in Settings app > General > About, and other sections. Set boot-nonce, save SHSH, battery info etc
+Name: System Info
+Depiction: https://arx8x.github.io/depictions/systeminfo.html
+Author: ARX8x
+
 Package: zip
 Architecture: iphoneos-arm
 Version: 2.32-6
@@ -669,26 +844,6 @@ SHA1: 8925200a7cbf25852f5d6d45346be7dfeba26779
 SHA256: b2fa431b03ffd2f926dc4972c684c90c8a5f63af92b2674f634252d26c717d19
 SHA512: 2c9caa66c8cbc4e717483568f9ada1a68413574e9303fba77ae32c22e0297501732657cdad97c7a73d4d0a384352f488523d9177b154666186db4927b067e685
 Description: standard Windows compression tool
-
-Package: com.abcydia.powerdown
-Architecture: iphoneos-arm
-Version: 1.0.5
-Section: Tweaks
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 474
-Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000)
-Conflicts: com.abcydia.gpowerpro
-Filename: ./debfiles//关机功能增强_1.0.5.deb
-Size: 67880
-MD5sum: 653d10547ccff703f2e52ce67836b3da
-SHA1: bd560ec5bf7c997a7ca86bb035dbc05f7c67947a
-SHA256: be76d02e38671c0a1304ff4735109033573fc6d068c0640928fbddc90bf36457
-SHA512: a1335ecb98242ab7e7bdd941b06337099fb6de022d20e615db0b88a8d3989225d307ad1fbed809a191fefe0176c4b512cb0b18378210e21f3add38511a29b77b
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
-Name: PowerDown 原生关机增强
-Author: Ma Jun <majun3@gmail.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-Icon: file:///Library/QuickDo/Actions/com.clezz.powerdown/Icon@2x.png
 
 Package: com.abcydia.datameter
 Architecture: iphoneos-arm
