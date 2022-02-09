@@ -1,0 +1,712 @@
+Package: com.abcydia.14294gios9
+Architecture: iphoneos-arm
+Version: 3.0.1
+Section: Networking
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 9.0), firmware (<= 10.3.4)
+Depends: com.haoerloveyou.ccpatch
+Filename: ./debfiles//Active 1429 4G iOS910.deb
+Size: 10784
+MD5sum: 0aac24fcff643587f91844d91c637cdb
+SHA1: f25fb9162ed1549fe567ccb327ffa6663f0d5910
+SHA256: c23b67ddf797efb92c041e3b2558a0c89590b3d4a5c9ad709a8974aa45dae8b7
+SHA512: 0ae20d25e59e5736dd48ad1e5616b383a14dc403dbf5eed0c5d55e5a3158754bc2a0868914ea874b8ca2d3f41ff90445548ed7d6668de906ea8fac9cd838c41e
+Description: 同时激活 1429 移动2G 联通4G 电信4G
+Name: Active 1429 4G iOS9/10
+Author: ABCydia <admin@abcydia.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: cn.agricu.mterminal
+Architecture: iphoneos-arm
+Version: 1.4-6
+Priority: standard
+Section: Utilities
+Maintainer: Agricu
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds
+Filename: ./debfiles//cn.agricu.mterminal_1.4-6_iphoneos-arm.deb
+Size: 118634
+MD5sum: f1ca245026fcb368f32e2aef817d1cfc
+SHA1: e300f4c590e4a9074f9827229a339eea14d12a2f
+SHA256: e34034fb5406d71647e21a800ae85731cb0ff197cafc3a592aa0158380134177
+SHA512: c990723d2a2ff1bd319cbf72263be6dfe403813a76d246cba758426f61b12bfbec0a1a7e60c3e4f71e012e06d05dc6fcfe0590cf28b90d7e655e09bb0484bbe5
+Description: 运行在iOS 上的手机终端
+Name: MTerminal 手机终端
+Author: lordscotland <admin@officialscheduler.com>
+Sponsor: Agricu <http://repo.agricu.cn>
+
+Package: com.a3tweaks.flipswitch
+Architecture: iphoneos-arm
+Version: 1.0.16
+Section: Development
+Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
+Installed-Size: 2408
+Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
+Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
+Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch, com.jakeashacks.realcc (<< 1.0.2)
+Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift, com.jakeashacks.realcc (<< 1.0.2)
+Filename: ./debfiles//com.a3tweaks.flipswitch_1.0.16.deb
+Size: 300926
+MD5sum: 12bfb897a91340a733a0f80bd212ac06
+SHA1: 84e6f35fc99e5e24ad94898ed2de289d68c393e6
+SHA256: ce56d1cf556d60c7cef62d5022fffa7004587539067ce096431d923cce5ba4cc
+SHA512: 71b5c1493b19b1152103b0a647788ae570431efae1615a9450483f03654e8af6bf1ec39b67293bad94c6414c9a16b05f0d020e48307b23323a2e11c7355e6029
+Description: Centralized toggle system for iOS
+Tag: purpose::extension, role::developer
+Name: Flipswitch
+Author: rpetrich <rpetrich+flipswitch@gmail.com>
+Icon: file:///Applications/Preferences.app/icon-table.png
+
+Package: com.abcydia.enableactivation4g
+Architecture: iphoneos-arm
+Version: 1.0.5
+Section: Networking
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 219
+Pre-Depends: firmware (>= 8.0), firmware (<= 8.4.1)
+Depends: com.haoerloveyou.ccpatch
+Filename: ./debfiles//com.abcydia.enableactivation4g_1.0.5.deb
+Size: 15574
+MD5sum: 2d00d41c1514a95256754ab7de8df32b
+SHA1: 44c0e201842fbba15f7d14a68e7b8eadf1ae3155
+SHA256: 7f12b030d1597195f5a54b3078cb4862b2d0f06f39e9bd80962b052d14409122
+SHA512: c531f3b0c0d5b61c3a4b94fb348b55b632de6775ed2652fa087c83a96290c6931a363bc0f208b6a892e6902e288e2b5c2b0d91cadd7640c8ef120bb97fbf0f36
+Name: Active 1429 4G iOS8
+Author: ABCydia <admin@abcydia.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.flipcontrolcenter
+Architecture: iphoneos-arm
+Version: 1.0.4~beta1
+Priority: optional
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 876
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.15~beta1)
+Conflicts: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
+Replaces: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
+Filename: ./debfiles//com.abcydia.flipcontrolcenter_1.0.4~beta1.deb
+Size: 144958
+MD5sum: 879513320b577903eeadcafcd1831fab
+SHA1: 898725074378a3c5327327e461cb290dbb9b7daf
+SHA256: b738b9890639a77ce7f02aebb33d142063a16ddd79108c5d54906f2705b11937
+SHA512: ccce089ed1b96ec7300ebb44827e35450f4dcf7b52f8539efa793af9936a17700501118de73bdc046aa0c213b55583acdb934b421c3e5278f8ed93b352f5eecc
+Tag: purpose::extension
+Name: FlipControl 控制中心增强
+Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///System/Library/CoreServices/SpringBoard.app/controlcenter.png
+
+Package: com.haoerloveyou.ccpatch
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 7.0)
+Depends: mobilesubstrate
+Conflicts: com.gpp.ipcarrier, com.gpp.ipcarrieri6cntl
+Filename: ./debfiles//com.haoerloveyou.ccpatch_1.2.deb
+Size: 10760
+MD5sum: 6c69d3cb6d727f1f0971d487016cd71f
+SHA1: 7c5cfe0dbf8be1f86d4b9be51d0c0fb1325839ca
+SHA256: 2287e3812df7ce13c9958d044c16978ef81f748fc4f899cf3770f4dad4913699
+SHA512: 5931665c2499ea6dcbc0bcdbb6fd6eab640ec7e8cadc1c24db21e3c380d5ec2e0d2d549bae0eb6aff90aee84022e7f14d3d6897e865cf8c505ed6ef21179698a
+Name: CommCenter patch for iOS 7~10
+Author: HuWenDong <admin@abcydia.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.haoerloveyou.ccpatch
+Architecture: iphoneos-arm
+Version: 1.2
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Pre-Depends: firmware (>= 7.0)
+Depends: mobilesubstrate
+Conflicts: com.gpp.ipcarrier, com.gpp.ipcarrieri6cntl
+Filename: ./debfiles//com.haoerloveyou.ccpatch_1.2的副本.deb
+Size: 10760
+MD5sum: 6c69d3cb6d727f1f0971d487016cd71f
+SHA1: 7c5cfe0dbf8be1f86d4b9be51d0c0fb1325839ca
+SHA256: 2287e3812df7ce13c9958d044c16978ef81f748fc4f899cf3770f4dad4913699
+SHA512: 5931665c2499ea6dcbc0bcdbb6fd6eab640ec7e8cadc1c24db21e3c380d5ec2e0d2d549bae0eb6aff90aee84022e7f14d3d6897e865cf8c505ed6ef21179698a
+Name: CommCenter patch for iOS 7~10
+Author: HuWenDong <admin@abcydia.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.haoerloveyou.ifile
+Architecture: iphoneos-arm
+Version: 2.2.0-1
+Section: Utilities
+Maintainer: Agricu
+Installed-Size: 20224
+Depends: file-cmds, zip, unzip, p7zip, gzip, bzip2, unrar, diskdev-cmds
+Filename: ./debfiles//com.haoerloveyou.ifile_2.2.0-1_iphoneos-arm.deb
+Size: 9838006
+MD5sum: ddcd5c0084f40ea5d693e54403668a95
+SHA1: 152b9ff1d5241483585f199474bb1c18754289f1
+SHA256: 6b40cc389add415bb0078c1efddf986e8adc7d34b6fae983b9185e1e316649d8
+SHA512: 7636ffe6d4961f65b3583d4145ebd050d88f5a6748e376886d3423d08ae02d9cf12a801cf24e930cf3c06a5cacd7eaff29f69ec0e2d8a56dabfb3ab12a11f38f
+Name: iFile 文件管理器
+Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
+
+Package: com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Version: 1.0.9
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./debfiles//com.rpetrich.rocketbootstrap_1.0.9.deb
+Size: 37122
+MD5sum: 281eda25fed6abef4e4a8ac6a18e11b9
+SHA1: 7432a02d8948f392761c6fb2ee1f1be75ed0a987
+SHA256: 369c6562270865b1b2f002981864e4b59022144e9335bb59ea02e1819f701986
+SHA512: ed52a3aeb2754334c6ba30bfdd8410b445a6e2f65b8c60425c8ec9dd85a4099c71e85b44b61fa46500bcf1b8bbef34916bee68a391b524ac310e067d3c18c668
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Name: RocketBootstrap
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.saurik.substrate.safemode
+Architecture: iphoneos-arm
+Version: 0.9.6001
+Priority: optional
+Section: Tweaks
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 156
+Depends: mobilesubstrate (>= 0.9.3367+38)
+Conflicts: safe-mode-fixer-ios7
+Replaces: safe-mode-fixer-ios7
+Filename: ./debfiles//com.saurik.substrate.safemode_0.9.6001_iphoneos-arm.deb
+Size: 13226
+MD5sum: 5e9905d35c71075b2a7f0aed5cd4b1db
+SHA1: 916af06e0c879233ff22d795b04abf8276ff905b
+SHA256: 86515cb9f6832247dbeae8427b996099dc8759bb1ef1d719c293123f2f531ee1
+SHA512: 92c7d126768ef5ccda4ec57d41ef124c0afaee30becbb758063e83bc48381b7d41d91a2a78fa16b6788c41db1773597dcf85f8c50a112216a86df0a2d19ed5b6
+Description: safe mode safety extension (safe)
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Name: Substrate Safe Mode
+Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
+Package: coreutils
+Architecture: iphoneos-arm
+Version: 8.12-13
+Priority: standard
+Section: Utilities
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 8636
+Provides: md5sum, sha1sum
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: bash, coreutils-bin (>= 7.4-5), profile.d
+Replaces: netatalk (<= 2.0.3-6)
+Filename: ./debfiles//coreutils_8.12-13_iphoneos-arm.deb
+Size: 633090
+MD5sum: 1e3acb73a0398435178d7cbeee0bd361
+SHA1: cb4853e98f94169c58ae9d926740f74e464c75d1
+SHA256: fe1966e5f72064c8a0dbe0a00591f7be0803d36194aed1e03bd7c959b1043247
+SHA512: 4fc5e2ee3e3cb67939b7cf7fa6bb65b3808bf85061b0937c2a0ae5dc578d16de6ae479deb54a26097e76a0470696c2493be85aaea4648963a6151698bf730715
+Homepage: http://www.gnu.org/software/coreutils/
+Description: core set of Unix shell utilities from GNU
+Name: Core Utilities
+
+Package: curl
+Architecture: iphoneos-arm
+Version: 7.33.0-9
+Priority: standard
+Section: Networking
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 724
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: ./debfiles//curl_7.33.0-9_iphoneos-arm.deb
+Size: 275848
+MD5sum: 9555aec6ea41e0cdeb3aab0f84313eb1
+SHA1: 7d8418b624dccd00fef2e78a0270efd6c097c891
+SHA256: 1e10da5c5835e319f482d05c8ad9f76a6869b3e52d360231e1958c4ab6edf3d3
+SHA512: c432fb1afbaff31a468549c73e400a83d9546cb7be642b89f47600ee75f57193dd829c203896f9dcbf67464df97b633a69179c5a2db8781b2fa774cf76b949b7
+Homepage: http://curl.haxx.se/
+Description: flexible multi-protocol file transfers
+Name: cURL
+
+Package: diskdev-cmds
+Architecture: iphoneos-arm
+Version: 421.7-4
+Priority: required
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 848
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: firmware-sbin
+Filename: ./debfiles//diskdev-cmds_421.7-4_iphoneos-arm.deb
+Size: 114822
+MD5sum: 2211d78fb6bede91ba9004aad776eacf
+SHA1: 57017a698fa3ecaac06b2a1d5dbb41b8eb206bfd
+SHA256: b5d7a6f34ce77182faaa0f2de90b348497c9c1aa66a5472cc813616c01244a88
+SHA512: 49406a022b4559a4df73c859eb24cf711f1b5ff4ae5be193746c4e4bfbbd80360ae3b30f5dda62d36afe9020569180c656fbce0083878df4b9d3206700920285
+Description: mount, quota, fsck, fstyp, fdisk, tunefs
+
+Package: file-cmds
+Architecture: iphoneos-arm
+Version: 220.7-3
+Priority: important
+Section: Utilities
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 296
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debfiles//file-cmds_220.7-3_iphoneos-arm.deb
+Size: 57908
+MD5sum: be33a80c9418b5ffc318bd0219b896c1
+SHA1: 32108b96a5d650b27b55753b025143fd4119dac6
+SHA256: 80f8889db3bd710b06d161b53d09c84e9f287d6f2a149f4df5331e8696c81c46
+SHA512: edcca14b1e65f6b34021a5f22aeeeae319d8e0073fb48848e63bac8b78e234eb4e17b22dbc374f7b7ab54617df7d82d84d096be9ab38ef52d254699964417c58
+Description: chflags, compress, ipcrm, ipcs, pax
+
+Package: com.abcydia.bars
+Architecture: iphoneos-arm
+Version: 0.7.0
+Section: Themes
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 248
+Depends: mobilesubstrate, firmware (>= 5.0)
+Filename: ./debfiles//iOS6信号风格.deb
+Size: 19248
+MD5sum: 97372cdf83e8e67ddf6e8050c1ee681d
+SHA1: 93c57d2b04cdf0c36a786259266fc36f8fb0f558
+SHA256: e9ee0ad5207487f6573527170f32d620167e4c9c782b802f5155a6ba57238689
+SHA512: b882a07e08311348dde2a8cb027623beadfda8b633ec3a46fe5fe2a7cb2b79252e5bd2030f2cf133fe9fe594c7f9dd4d094935653b2b08757539ff629d94b3f1
+Tag: purpose::extension
+Name: OldSignalBars iOS经典信号
+Author: phoenix3200 <phoenix3200.dev@gmail.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: net.tihmstar.etasonuntether
+Architecture: iphoneos-arm
+Version: 1.3.1
+Priority: required
+Section: System
+Maintainer:
+Depends: firmware (= 8.4.1)
+Conflicts: cy+cpu.arm64, net.tihmstar.daemonloader
+Filename: ./debfiles//iOS8.4.1-32完美越狱.deb
+Size: 87484
+MD5sum: 762010191bc23aaffca652fdb394cf39
+SHA1: dad2ca193e486b1aa4ca90ac60c312fd8c1a429a
+SHA256: 0457e069e0f72c49ce17e5f8795f5b8f23e6bc34ba3637a147b357ebacdef83e
+SHA512: a2fc5b3171ef4a00777f63d7427eaa9441b3e3bb0c53ccb9e44ac15af4b2965462e857f1decf096de21b98fcd7cf3657bd97b45267ee2df230895f42a011320f
+Description: Untether for 8.4.1 32bit
+	<br>
+	Etason Untether is an untether package for 32bit devices running 8.4.1
+	<p>It exploits the Pegasus jsc bug and bootstraps Etason jailbreak.
+	<br>
+	CHANGELOG:
+	<p>v1.3.1 fixes deamonload bug
+	<p>v1.3 adds support for iPad4
+	<p>v1.2 adds support for iPhone5
+	<p>v1.1 fixed icon cache bug
+	<br>
+	Features:
+	Logging is disabled by default, however you can enable it by creating a file at
+	<p>/var/logs/untetherhomedepot.log (MAKE SURE TO "chmod +w"!!!)
+	<br>
+	<p>Also there is an attempt of making a "bootloop protection"
+	<p>At boot a file is created at /var/logs/untetherhomedepotLoopProtection.txt 
+	<p>which contains the number of times the exploit failed.
+	<p>If the number exceeds "10" then the untether boots without executing the kernelexploit.
+	<p>On every successfull boot the file is deleted.
+	<p>If you want to deactivate untether then run:
+	<p>"echo '10' > /var/logs/untetherhomedepotLoopProtection.txt"
+	<br>
+Name: Etason untether
+Provices: net.tihmstar.daemonloader
+Author: tihmstar
+dev: tihmstar
+Depiction:
+Icon:
+
+Package: net.tihmstar.untetherhomedepot
+Architecture: iphoneos-arm
+Version: 1.4.2
+Priority: optional
+Section: System
+Maintainer:
+Depends: firmware (>= 9.1), firmware (<= 9.3.4)
+Conflicts: cy+cpu.arm64
+Replaces: net.tihmstar.betterhomedepot
+Filename: ./debfiles//iOS9-32完美越狱.deb
+Size: 22650
+MD5sum: 94e2ea5ebaac343ffc1a7514accc5c24
+SHA1: 375628b9348b730bf75108e5675ed74295909b28
+SHA256: 0988d513c1d7960f63b7944f7d7baae43aa49e63c8995411dd24ad7b1254e5f6
+SHA512: 7580714cbe26a7b6786bdc0b9f5a75debf2319c50233abef8f2426572f53a258bea22cc981ba979c9c894e7b3a5194ebaf49c9a11c84a5f114b429355557cd97
+Description: Untether for 9.1-9.3.4 32bit
+	<br>
+	UntetherHomeDepo is an untether package for 32bit devices running 9.1-9.3.4
+	<p>It exploits the Pegasus jsc bug and bootstraps HomeDepot jailbreak.
+	<br>
+	<p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
+	<p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
+	<br>
+	KNOWN BUGS:
+	<p>- openssh daemon doesn't start
+	<br>
+	CHANGELOG:
+	<p>v1.4 added support for 9.2.1
+	<p>     Refusing to install when stage1 doesn't work (to prevent bootloops)
+	<p>v1.3 fixed lwvm patch (bug where 9.3.1 rootfs was ro)
+	<p>v1.2 fixed a bug where having a passcode would disable untether
+	<p>v1.1 fixed deepsleep bug
+	<br>
+	Currently supported device:
+	<p>iPhone4,1: 9.3.4
+	<br>
+	Features:
+	Logging is disabled by default, however you can enable it by creating a file at
+	<p>/var/logs/untetherhomedepot.log (MAKE SURE TO "chmod +w"!!!)
+	<br>
+	<p>Also there is an attempt of making a "bootloop protection"
+	<p>At boot a file is created at /var/logs/untetherhomedepotLoopProtection.txt 
+	<p>which contains the number of times the exploit failed.
+	<p>If the number exceeds "10" then the untether boots without executing the kernelexploit.
+	<p>On every successfull boot the file is deleted.
+	<p>If you want to deactivate untether then run:
+	<p>"echo '10' > /var/logs/untetherhomedepotLoopProtection.txt"
+	<br>
+	There is an offsets.json file in /untether
+	<p>You should really not touch any of the files shipped with this package!
+	<p>However if you don't care about your device bootlooping, you
+	<p>might want to try your luck and add offsets to the file.
+	<p>But please keep in mind:
+	<p>MODIFYING THIS FILE CAN CAUSE BOOTLOOPS!
+	<br>
+	FINAL WARNING:
+	<p>INSTALL AT YOUR OWN RISK!!!!!
+Name: UntetherHomeDepot
+Author: tihmstar
+dev: tihmstar
+Depiction:
+Icon:
+
+Package: net.tihmstar.untetherhomedepotoffsets
+Architecture: iphoneos-arm
+Version: 1.0.0
+Priority: optional
+Section: System
+Maintainer: tihmstar
+Pre-Depends: net.tihmstar.untetherhomedepot (>= 1.4.2)
+Conflicts: cy+cpu.arm64
+Filename: ./debfiles//iOS9-32完美越狱依赖.deb
+Size: 2330
+MD5sum: f284b5c82faca2168f79752d66631e70
+SHA1: 04fec8b0fae7d14b9e2dab7eea7b19310c8cc2e3
+SHA256: 58bebcdd287a598d0ed58bd36decc1dfbc5a2978cdb4297c8d707d01ed27ce61
+SHA512: eec7fc68c96b31f081136c18571726d64aa5c58d7df536622c6b3fc3f8143e5cff10f491b99fa9661b4b9d6be76c0c8c22f5f6233cbef0e44850dccd5dee0d38
+Homepage: https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
+Description: Community Offsets for UntetherHomeDepot
+	<br>
+	UntetherHomeDepot is an untether package for 32bit devices running 9.1-9.3.4
+	<p>However it only ships with configuration for iPhone4,1 on 9.3.4
+	<p>This Package was created by the jailbreak community with the
+	<p>great initiative of @stek29 and aims to add offsets for every
+	<p>other device/ios combination.
+	<br>
+	<p>THIS MIGHT BOOTLOOP YOUR DEVICE!!!!!
+	<p>DO NOT INSTALL IF YOU ARE AFRAID OF BOOTLOOPS!
+	<br>
+	Many of the offsets were tested by the community, however
+	<p>some of them are still untested (but should work).
+	<p>For more information on which offsets have been tested
+	<p>and whether you help is needed, please check following gist:
+	<p>https://gist.github.com/stek29/52b14b851089895fa66fde383d1bdbe5
+	<br>
+	Info:
+	<p>If this package bootloops your device, try triggering bootloopprotection
+	<p>by rebooting at least 10 times!
+	<br>
+	FINAL WARNING:
+	<p>TIHMSTAR IS NOT RESPONSIBLE FOR THE CORRECTNESS OF THE SHIPPED OFFSETS!
+	<p>INSTALL AT YOUR OWN RISK!!!!!
+Name: Community Offsets
+Author: stek29
+Icon:
+
+Package: kloader
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: System
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Conflicts: cy+cpu.arm64
+Filename: ./debfiles//kloader_1.0.deb
+Size: 7982
+MD5sum: 16347bf66c0c84e4870d2cbba42d1dee
+SHA1: 58194352911aa3ae03dafbc88ddb6f247818ee8f
+SHA256: 1fdbaf24db617955afd30244884f99f15be58763a723eb5d81a07b52beae42f4
+SHA512: b385be74dd495b6a9c8e484e01300677683c5d066215e14fd7055c9619adb41a064c958da8934ba57185f9f23efbb8b452926815446577f9b2e7fea90185bed5
+Homepage: https://github.com/xerub/ios-kexec-utils/blob/master/kloader.c
+Description: Don't install if you don't know what that is
+	Do not install this package if you don't know what this is.
+	Installing this on a production device is not recommended.
+Name: kloader
+Author: winocm, xerub
+
+Package: libcrippy-1.0.0
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Development
+Maintainer: tihmstar
+Depends: firmware (>= 6.0)
+Filename: ./debfiles//libcrippy-1.0.0_1.0.deb
+Size: 15858
+MD5sum: d0057e3946594ac6c18b7112383955e5
+SHA1: 175bfec615f2c802a1c0c74ffca649664f036001
+SHA256: f1f3253d43601acbacd12071e1de880a83b2b987b6238a131fc84ef813928465
+SHA512: faf1c66b923d142fcdb3fed425f31c584d2e5070002eb656dfb316bc648456c264a2c81ab606b5b096dcd21cb1b1d932d1a9d8b79be95ef5d63017e174b33754
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Name: libcrippy-1.0.0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+
+Package: libpartialzip-1.0.0
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: optional
+Section: Development
+Maintainer: tihmstar
+Depends: firmware (>= 6.0), libcrippy-1.0.0
+Filename: ./debfiles//libpartialzip-1.0.0_1.0.deb
+Size: 6830
+MD5sum: ab609167a1653beda05eb2876f2500bd
+SHA1: cf24410d852a756df9869e99dc3e0075baed092d
+SHA256: 2a0417afeaf3368285d409c396492158632a6c44e8051bc12f2bdb7b8ff0f1d6
+SHA512: 61b9052be350fa8cd2b9dafc71685ae7338a1ae186db9e4dabf19b13077e6c3fb2de14ff39d8d841055d563828d5e50bc8f174d6dc5ffe43c43d5daf364532a1
+Homepage: https://www.openjailbreak.org/projects/libcrippy-1-0
+Name: libpartialzip-1.0.0
+Author: Drew Alden, Ethan Laur, Joshua Lee Tucker, L0 Ki, Patroklos Argyroudis
+
+Package: mobilesubstrate
+Architecture: iphoneos-arm
+Version: 0.9.6301
+Priority: optional
+Section: System
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: com.saurik.substrate.safemode
+Conflicts: me.devbug.msreloadfix, com.r3pwn.startsubstrate, com.ragemasta.bootstrap
+Breaks: uikittools (<< 1.1.1), com.mywi4 (<= 5.03.2), com.phoenix.pandoracontrols (<= 1.1.0-1), com.intelliborn.intelliscreenx (<= 1.0.110), com.evad3rs.evasi0n7 (<< 0.2)
+Replaces: cycript (<= 0.9.594)
+Filename: ./debfiles//mobilesubstrate_0.9.6301_iphoneos-arm.deb
+Size: 122342
+MD5sum: f2ca15c08aab522d8b7e842238aa83c6
+SHA1: 02ad8dce33adae8ba256dd5a4cac3bdf0246deec
+SHA256: 8dc91a066f088632409fecf65613831b8d6802e3b799f2dc87563c3ea2ed06ca
+SHA512: 7dc2c4ec5ac9bbf97842771e201b433d2d7404ff05ab3e4a7fbb287f07a8cf07504d63155ed39612ba49ecc780f98148408cffc92b5b7dc5d81076821ca187af
+Description: powerful code insertion platform
+Name: Cydia Substrate
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/mobilesubstrate/
+
+Package: openssh
+Architecture: iphoneos-arm
+Version: 6.7p1-13
+Priority: important
+Section: Networking
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 4736
+Pre-Depends: dpkg (>= 1.14.25-8)
+Depends: openssl
+Filename: ./debfiles//openssh_6.7p1-13_iphoneos-arm.deb
+Size: 587678
+MD5sum: 51b3398d67bc3b861642c1eff23f9e42
+SHA1: 0312d429110829359f7443adbfbb27cb1f9419d5
+SHA256: ff4eb2a1e4453051e52ba56a71c3d4f56d00c1e83095653647a7a4f49b4c3b1f
+SHA512: f57ce4135b1959f9269433f5f5fb896f17d5606f577a7e5b2e9282a66b3171b13b7f1348c83f1d8d6c037ef49656b47d26c601d05c5588b8908f2089ae03853c
+Description: secure remote access between machines
+Name: OpenSSH
+Depiction: http://cydia.saurik.com/info/openssh/
+
+Package: openssl
+Architecture: iphoneos-arm
+Version: 0.9.8zg-13
+Priority: standard
+Section: Security
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6164
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debfiles//openssl_0.9.8zg-13_iphoneos-arm.deb
+Size: 1031128
+MD5sum: 405f8d4c91aab0cf85e6f8ad93b8ab30
+SHA1: 3aedf9d8393b7c8a426840223625a601dd7d089d
+SHA256: 0e57f4b5968fc32c1fb56c1361d163a1ffdcda9173145551aff839cfc19be664
+SHA512: 6ece4b6fde15ed68c17d16f3590fbbbc928eba2cbb3936283f940663dc654822638667e72eb3e9dde782b138270daa81a1b96c4bf74604602594825c03d3cd7f
+Description: SSL library and cryptographic tools
+Name: OpenSSL
+
+Package: openssl
+Architecture: iphoneos-arm
+Version: 0.9.8zg-13
+Priority: standard
+Section: Security
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 6164
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debfiles//openssl_0.9.8zg-13_iphoneos-arm的副本.deb
+Size: 1031128
+MD5sum: 405f8d4c91aab0cf85e6f8ad93b8ab30
+SHA1: 3aedf9d8393b7c8a426840223625a601dd7d089d
+SHA256: 0e57f4b5968fc32c1fb56c1361d163a1ffdcda9173145551aff839cfc19be664
+SHA512: 6ece4b6fde15ed68c17d16f3590fbbbc928eba2cbb3936283f940663dc654822638667e72eb3e9dde782b138270daa81a1b96c4bf74604602594825c03d3cd7f
+Description: SSL library and cryptographic tools
+Name: OpenSSL
+
+Package: org.tihmstar.kDFUApp
+Architecture: iphoneos-arm
+Version: 1.0.2
+Priority: optional
+Section: System
+Maintainer: tihmstar
+Depends: openssl, libcrippy-1.0.0, libpartialzip-1.0.0, curl, kloader, firmware (>= 6.0)
+Filename: ./debfiles//org.tihmstar.kDFUApp_1.0.2.deb
+Size: 80458
+MD5sum: d2fb236c946705c835a08f844527f0c1
+SHA1: bd26bd0a4d7c9a60d0af75a962ced322962d2f3f
+SHA256: b52de8c051332425576b11a3d9ce9637a70c184afc5479ad449d1467a4868271
+SHA512: 5d9932fccac1aa3151c98fb9fa05e96453f43b0e008b63bf85836c00f1b7c70b7bb5ecb4f3c71ec07adde8cca3a820edefd0448088b499751dcb2a010d0067d5
+Description: easy way to get into kDFU mode
+	kDFUApp is an easy way to get into kDFU mode
+	simply activate all switches and press the button
+	<br>
+	<br>Currently compatible with:
+	<br>iPhone3,1 / iPhone3,2 / iPhone3,3 / iPhone4,1 / iPhone5,1 / iPhone5,2 / iPhone5,4
+	<br>iPad2,1 / iPad2,2 / iPad2,3 / iPad3,1 / iPad3,3
+	<br>
+	<br>NOT COMPATIBLE WITH 64BIT DEVICES!
+Name: kDFUApp
+Author: tihmstar
+dev: tihmstar
+
+Package: p7zip
+Architecture: iphoneos-arm
+Version: 16.02-1
+Priority: optional
+Section: Development
+Maintainer: Sam Bingner <maintainer@sbdhi.com>
+Installed-Size: 9080
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debfiles//p7zip_16.02-1.deb
+Size: 930130
+MD5sum: 761ba3abffef6efdfdaeaf66f30b220c
+SHA1: 154bc2ab46f53b4ea2c66afdb1ed75bb5ba95549
+SHA256: b3cfc7f54e0cf37b783c646faaeec540995e1f656e6bc42019a93def1fc8ac15
+SHA512: 58a8b1b9a122ac0109568401ade44295a58be4762f80083598d4a7bb52f0558a1f066ac3c8ff5e699cffe45a7b556e585393e076e776cff7180a959d9c1f1216
+Description: claims to be a good compressor
+Name: 7-zip (POSIX)
+Author: Sam Bingner <maintainer@sbdhi.com>
+
+Package: preferenceloader
+Architecture: iphoneos-arm
+Version: 2.2.4
+Section: Development
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 525
+Depends: mobilesubstrate
+Filename: ./debfiles//preferenceloader_2.2.4.deb
+Size: 32584
+MD5sum: 0565b2c63ed9cb1660b34954e7991931
+SHA1: d936a439f05367595d243412652095a9b0a09ada
+SHA256: ef945e151158724d2db79245be3c74c8da03b3bcb41b6fec99f23d4682765433
+SHA512: 66cc72dc73c273911168cf316559e3db135fded9810eac312e5e83c632c7026f8471ed8e787bf4dc599bd388de3fec0f3401f63c622f10e4c0a98b18054902a2
+Description: load preferences in style
+Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11, compatible::ios12, compatible::ios13
+Name: PreferenceLoader
+Author: Sam Bingner
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: unrar
+Architecture: iphoneos-arm
+Version: 3.6.8-2p
+Priority: optional
+Section: Archiving
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 292
+Filename: ./debfiles//unrar_3.6.8-2p_iphoneos-arm.deb
+Size: 141040
+MD5sum: 6b4047075066f85147c348639c771ac6
+SHA1: ff8461d90cfe629c920eb4a4a6d13091e29195a8
+SHA256: 9e6102512ea1208890ce33a61c76756c9d554b1867b4b08bedbd7ab855c28596
+SHA512: c1661a824152346e81e5d9d638f911b50e42ef27ed88c62531a120178f9a38f97d06654d9ed8bd0613fe46008ce7d11313af190f2589988f5b440b2676991717
+Description: de-compresses files in rar format
+
+Package: unzip
+Architecture: iphoneos-arm
+Version: 5.52-6
+Priority: important
+Section: Archiving
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 428
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debfiles//unzip_5.52-6_iphoneos-arm.deb
+Size: 95822
+MD5sum: 326830d4b5e67d6bc2fc25b6c4a71baa
+SHA1: 313cbc1e164f2816cd202dec91a9c266505db259
+SHA256: 04329d078f3394dbb72abe9f19c893a178ecc22704342efbedf0c9021a9cbdf8
+SHA512: d74b54e7d39a6ed628ecbb6aff5fdaea9eee5753c00c8463d6b494ba557dae44973e83f869eb266992ccf2f26cb873047a6b64842fbb303ee8809d423ce02e50
+Description: de-compesses files in zip format
+
+Package: zip
+Architecture: iphoneos-arm
+Version: 2.32-6
+Priority: important
+Section: Archiving
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Installed-Size: 368
+Pre-Depends: dpkg (>= 1.14.25-8)
+Filename: ./debfiles//zip_2.32-6_iphoneos-arm.deb
+Size: 58550
+MD5sum: 1eebf2ba9ab0dc7cf445bf7cba0fa49e
+SHA1: 8925200a7cbf25852f5d6d45346be7dfeba26779
+SHA256: b2fa431b03ffd2f926dc4972c684c90c8a5f63af92b2674f634252d26c717d19
+SHA512: 2c9caa66c8cbc4e717483568f9ada1a68413574e9303fba77ae32c22e0297501732657cdad97c7a73d4d0a384352f488523d9177b154666186db4927b067e685
+Description: standard Windows compression tool
+
+Package: com.abcydia.powerdown
+Architecture: iphoneos-arm
+Version: 1.0.5
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 474
+Depends: firmware (>= 4.0), mobilesubstrate (>= 0.9.5000)
+Conflicts: com.abcydia.gpowerpro
+Filename: ./debfiles//关机功能增强_1.0.5.deb
+Size: 67880
+MD5sum: 653d10547ccff703f2e52ce67836b3da
+SHA1: bd560ec5bf7c997a7ca86bb035dbc05f7c67947a
+SHA256: be76d02e38671c0a1304ff4735109033573fc6d068c0640928fbddc90bf36457
+SHA512: a1335ecb98242ab7e7bdd941b06337099fb6de022d20e615db0b88a8d3989225d307ad1fbed809a191fefe0176c4b512cb0b18378210e21f3add38511a29b77b
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Name: PowerDown 原生关机增强
+Author: Ma Jun <majun3@gmail.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///Library/QuickDo/Actions/com.clezz.powerdown/Icon@2x.png
+
+Package: com.abcydia.datameter
+Architecture: iphoneos-arm
+Version: 1.4-3
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 1212
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debfiles//网速显示_1.4-3.deb
+Size: 243602
+MD5sum: f8ba472bb044361dae7ed0f69ad36958
+SHA1: 2dd43afc25a31f40429668a31746fa7aaf1c3725
+SHA256: e692810a84e364c94b329bbc914bbdf192005d1602b1280e6c166ebf6637d6ff
+SHA512: c826eab0e63632c4bea64e50b05bc8011b701ddca04df2c7da087c7830eeebac0eb9cc1833ae6b61ea07157849824fb3604042e91b4e04412cecaf2f60f716b7
+Description: 目前最实用美观的流量记录仪
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
+Name: DataMeter 流量记录仪
+Author: Minuit <minuits@163.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///Library/PreferenceBundles/DataMeterSettings.bundle/icon@2x.png
+
