@@ -4,7 +4,7 @@
 git init
 git add .
 git add README.md
-git commit -m "添加index.html"
+git commit -m "添加dumpdecrypter"
 git branch -M main
 git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main

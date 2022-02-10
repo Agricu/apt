@@ -606,6 +606,29 @@ Name: Cydia Substrate
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
+Package: netskao.dumpdecrypter
+Architecture: iphoneos-arm
+Version: 1.2-9.4
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1330
+Depends: firmware (>= 11.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles//netskao.dumpdecrypter_1.2-9.4_iphoneos-arm.deb
+Size: 323902
+MD5sum: f78e7a06a08fa67db73cfdaf9191adba
+SHA1: 0444ed606a4718c59afa1fed9446a7cba2d227df
+SHA256: 3d881bcc75ab7c939c957bab8bfc9e53fc58a8e9ab5629947a59663eb4616308
+SHA512: eab1b213cd2bb506d168e0db418f159a385b0a22d3cd6cc09d0d0025b85e7be6dfc6d2b37120e7685b31724a68615721b5f88e2b62ae663792c52c1521bf96a8
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Description: DumpDecrypter是基于dumpdecrypted的修改封装，使用方式：通过桌面的DumpDecrypter应用
+	程序选择需要解密的应用，增加可选修改版本限制，可选删除跳转URL，可选删除设备限制，可选删除包内小组件，可选删除包内手表组件，可选修复白图标，解密完整应用并导出至/var/mobile/Documents/DumpDecrypter，选择应用后自动杀掉应用进程重新开始，解密前加载所有Frameworks，解密前停止所有非解密线程，解密完成后自动恢复等(解密后的IPA如果你要直接安装，建议重签名，无论使用的签名证书是否有效，否则某些环境会出现闪退等问题)
+Tag: purpose::extension
+Author: Netskao <1410970825@qq.com>
+Name: DumpDecrypter
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=dumpdecrypterDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: netskao
+
 Package: netskao.goodwifi
 Architecture: iphoneos-arm
 Version: 0.0~beta6
