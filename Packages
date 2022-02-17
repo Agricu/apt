@@ -371,28 +371,6 @@ Name: Active 1429 4G iOS8
 Author: ABCydia <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
-Package: com.abcydia.flipcontrolcenter
-Architecture: iphoneos-arm
-Version: 1.0.4~beta1
-Priority: optional
-Section: Tweaks
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 876
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.15~beta1)
-Conflicts: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
-Replaces: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
-Filename: ./debfiles//com.abcydia.flipcontrolcenter_1.0.4~beta1.deb
-Size: 144958
-MD5sum: 879513320b577903eeadcafcd1831fab
-SHA1: 898725074378a3c5327327e461cb290dbb9b7daf
-SHA256: b738b9890639a77ce7f02aebb33d142063a16ddd79108c5d54906f2705b11937
-SHA512: ccce089ed1b96ec7300ebb44827e35450f4dcf7b52f8539efa793af9936a17700501118de73bdc046aa0c213b55583acdb934b421c3e5278f8ed93b352f5eecc
-Tag: purpose::extension
-Name: FlipControl 控制中心增强
-Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-Icon: file:///System/Library/CoreServices/SpringBoard.app/controlcenter.png
-
 Package: com.abcydia.ntspeed
 Architecture: iphoneos-arm
 Version: 1.0-27
