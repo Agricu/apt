@@ -32,23 +32,74 @@ Description: Cydia自动检测剪切板的URL地址，由Agricu精简，原版�
 Name: Cydia自动添加源
 Author: yuosaf01 & 3bod_syr
 
+Package: cn.agricu.allowkeyboard
+Architecture: iphoneos-arm
+Version: 1.3
+Section: System
+Depends: mobilesubstrate
+Filename: ./debfiles//cn.agricu.allowkeyboard_1.3_iphoneos-arm.deb
+Size: 652
+MD5sum: 074308e4ff97dba5d106c1cb50fcf768
+SHA1: 44ab88a5997925dbf39c514f60aece8a1081e8e4
+SHA256: 616c723b296052cbe3c6e79249d5cc7ddc0860d7b8e510a71ffa11f7a9fcd8c2
+SHA512: fa2dab2ce812aa2d2bbe26c61ded5e724cdd29c0667b41e62abf21d2eac9f905dba135932a7950b15d18ec7ec0b9fe1fd54e304a3ce0b99ceaea16279d9ac687
+Description: 输入密码启用第三方键盘，兼容iOS8~iOS14
+Name: Allowkeyboard 第三方输入法
+Author: iBreak
+
+Package: cn.agricu.applocker
+Architecture: iphoneos-arm
+Version: 2.5-1
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 648
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist (>= 1.4)
+Filename: ./debfiles//cn.agricu.applocker_2.5-1_iphoneos-arm.deb
+Size: 838
+MD5sum: dba31395b0a3b45d7443a0bf7900a390
+SHA1: 031d0eca958bb419ab3c005192e53782487083da
+SHA256: c84bd40637ec7aa21bd3a14870487b238055cac4747c2bcac34f6d3138a8d6be
+SHA512: ae2acb34f52619c3544ede0472bb1647165262b196cbf9a689c21d523d04c0647c4f9e2cdc3d36e7a5f8782ba14986d77482f21ff88086685966202489dc80ca
+Description: APP程序锁，iOS≥6.0
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Name: Applocker 应用程序锁
+Author: Ori Kadosh <support@orikad.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///Library/PreferenceBundles/applockerPrefBundle.bundle/applocker@2x.png
+
 Package: cn.agricu.cydia
 Architecture: iphoneos-arm
 Version: 2.1.1
 Section: Tweaks
 Maintainer: Agricu
 Installed-Size: 200
-Depends: mobilesubstrate,firmware (>= 6.0)
+Depends: mobilesubstrate, firmware (>= 6.0)
 Filename: ./debfiles//cn.agricu.cydia_2.1.1_iphoneos-arm.deb
-Size: 16534
-MD5sum: 094535b93528437c8bed914b3bc11ecf
-SHA1: bccd154686330a6492aa7e9b412d7765b71ee32a
-SHA256: 2a36d635dabf64fef6711e77aae37e62661aab611ab4410d3fab1949246a4257
-SHA512: 8d4d7a87d902506696f83ac33cf572b9b375dc927cd80c6ff526ee5a232f44e05981d068b0a3ab0dc75ae54e2fadd793d45fcb2611f45631dc368d5d2260468c
+Size: 29128
+MD5sum: 58bad98ba3717dcfc6b082e55abdb695
+SHA1: 1e97a5846d93154b07675c98052cdfcb1370d29b
+SHA256: a2e5cde04edecf1e7bd6dbf0a4ef1365120a8c596cd91b1ace750a87159c82ef
+SHA512: a797a08758777dc570b660abdae27ae22909fb6612eed221bbb9a7b356da9b0a7eda2d64013b5481d29ebb292316bc8b767ca8ff76f8e59f90bef3e688aa7d9e
 Description: 开启Cydia后台刷新及插件安装完成后关闭按钮
 Name: Cydia™助手
 Author: Agricu
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.cydia
+
+Package: cn.agricu.datameter
+Architecture: iphoneos-arm
+Version: 1.4-3
+Section: Tweaks
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1379
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debfiles//cn.agricu.datameter_1.4-3_iphoneos-arm.deb
+Size: 720
+MD5sum: b022c04c250adf621f4132ed40289f8d
+SHA1: 6f304d1f636486b9411c7186621024ce7f5e153d
+SHA256: 19c0c5bb94b59e7cd14b567c019561b7eca688bbbaab5cf5affaf1737fcf397c
+SHA512: 8b99de7daa9d84644d3626eb0646fa7c2f4f002c33ab7ea91370e0e9efb5b61f2fe22b1f6c12954b8dde250a534b7aafc55a8dedf2115c8f6d35a87a620e4d91
+Description: 经典的流量记录工具，iOS7~iOS11
+Name: DataMeter
+Author: Minuit
 
 Package: cn.agricu.dumpdecrypter
 Architecture: iphoneos-arm
@@ -67,6 +118,51 @@ Description: Dump Decrypter是一个针对bfdecrypt砸壳程序封装，主要�
 Name: Dump Decrypter
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.dumpdecrypter
 Author: BishopFox / Netskao
+
+Package: cn.agricu.flipcontrolcenter
+Architecture: iphoneos-arm
+Version: 1.0.4~beta1
+Priority: optional
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 876
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5001), preferenceloader (>= 2.2.2), com.a3tweaks.flipswitch (>= 1.0.15~beta1)
+Conflicts: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
+Replaces: com.plipala.ccsettings, de.j-gessner.ccloader (<< 1.2.2), kr.slak.cctoggles
+Filename: ./debfiles//cn.agricu.flipcontrolcenter_1.0.4~beta1_iphoneos-arm.deb
+Size: 958
+MD5sum: 78f702f99dfcbeba2214df9bf2d6161d
+SHA1: 3bdf17e8ee6f3bfa78ca84923a7384b2f42eef6c
+SHA256: e4515e04c0a0a2e32ca7a83fe50c7f031f9519915320fec6cbcc6180c59a316b
+SHA512: ab66d35eeeac7baaee057ad27b975eacebacae468565100bca6be1359c039d858602db33e5c7fde649102195a67d2347887ebe49e7e3bb085849962d7d4daba6
+Description: 控制中心功能增强，iOS7及更高版本
+Tag: purpose::extension
+Name: FlipControl 控制中心增强
+Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///System/Library/CoreServices/SpringBoard.app/controlcenter.png
+
+Package: cn.agricu.instanttouchid
+Architecture: iphoneos-arm
+Version: 0.0.2
+Priority: optional
+Section: Tweaks
+Maintainer: WZteam <haoerloveyou@gmail.com>
+Installed-Size: 302
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Replaces: com.abcydia.instanttouchid
+Filename: ./debfiles//cn.agricu.instanttouchid_0.0.2_iphoneos-arm.deb
+Size: 864
+MD5sum: 7610c80878db125ec222a99450493a7d
+SHA1: 2059bf6bd53ac2ebb7927bb63d607da4793b9ddf
+SHA256: 2a2c9a7c278fceb4666a6f38b16ac593a8f1804b60cec5b42934cb1702c505d1
+SHA512: f56dd01615524855b51270c2eb60e6a1523937cb1b3ac72358b24a023e49a5b710355292ccda7361c8b94e4cb0e20f43f060d4eb4992760830bdeba93451b282
+Description: 黑屏状态下直接使用指纹解锁
+Tag: purpose::extension, compatible::ios9
+Name: InstantTouchID 黑屏解锁
+Author: Joshua Rutschmann <joshua.rutschmann@gmx.de>
+Sponsor: Abcydia <apt.abcydia.com>
+Icon: file:///Library/PreferenceBundles/InstantTouchID.bundle/InstantTouchID@2x.png
 
 Package: cn.agricu.ios10lstu
 Architecture: iphoneos-arm
@@ -94,10 +190,10 @@ Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: bash, coreutils, ncurses, system-cmds
 Filename: ./debfiles//cn.agricu.mterminal_1.4-6_iphoneos-arm.deb
 Size: 118634
-MD5sum: f1ca245026fcb368f32e2aef817d1cfc
-SHA1: e300f4c590e4a9074f9827229a339eea14d12a2f
-SHA256: e34034fb5406d71647e21a800ae85731cb0ff197cafc3a592aa0158380134177
-SHA512: c990723d2a2ff1bd319cbf72263be6dfe403813a76d246cba758426f61b12bfbec0a1a7e60c3e4f71e012e06d05dc6fcfe0590cf28b90d7e655e09bb0484bbe5
+MD5sum: ad8734cfd7437f4b2e6b140eefe350a3
+SHA1: be95ab35d2477a6a58ee5eae3505aeaa2537eca5
+SHA256: b30c015455d7774d98d6bf301af0420b011e4888e28edfc96337e46da993ba67
+SHA512: 2d980a4a31b31b2b124d50b9953d3ee59bdf4e538e6501a301009b2eedbdd710b18a3b1ade0fd7fe7d0b5d7bc48dbfb23ccf81c0e3e94e8a1497ccc1f3a14942
 Description: 运行在iOS 上的手机终端
 Name: MTerminal 手机终端
 Author: lordscotland <admin@officialscheduler.com>
@@ -109,17 +205,16 @@ Version: 0.0.1-1
 Section: Tweaks
 Maintainer: Agricu
 Installed-Size: 200
-Depends: firmware (>= 8.0), firmware (<= 11.4.1),mobilesubstrate (>= 0.9.5000)
+Depends: firmware (>= 8.0), firmware (<= 11.4.1), mobilesubstrate (>= 0.9.5000)
 Filename: ./debfiles//cn.agricu.nosim_0.0.1-1_iphoneos-arm.deb
-Size: 3322
-MD5sum: 2221c50777d08ee4a356d5fa0b45a471
-SHA1: e571b53f4b5d4e2b5746e181baa8cebd10141bb4
-SHA256: ccd648e559da48335c4928e571f088bed9d010557a0cba50a667a8419515e16f
-SHA512: f8ea592f79c848f8c5268099e03fc5f6b8ee7e257798aaa7361ec169cc86840c41d3b3d00e635437cdc0b26e9bb3f99c2d639ec59c99546f882d6170baee140f
+Size: 5750
+MD5sum: d8e7945e430e3077f208f40648f8c9d2
+SHA1: b4631c73ad6270e99b33b8d13814db8da6018f2e
+SHA256: 23d5995d36d10c952666a39b9eed3c6cf340f635f453d3f7d1e44330f5e99ace
+SHA512: d0b5e63a017bee14dd6defc16c33538e65a7d4464632a4dcc1e86e3a6fa7ea0882979f6c0c143b55968bb6c5634775745ac8952389a986abb99a92b42f53465e
 Description: 屏蔽SIM卡未插卡提示，支持iOS8~iOS11
 Name: 屏蔽SIM卡未插卡提示
 Author: Agricu
-Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.nosim
 
 Package: cn.agricu.touchflow
 Architecture: iphoneos-arm
@@ -144,6 +239,22 @@ Name: TouchFlow触摸轨迹
 Author: CreatureSurvive <support@creaturecoding.com>
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.touchflow
 
+Package: cn.agricu.virtualstep
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: Tweaks
+Installed-Size: 320
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles//cn.agricu.virtualstep_1.0.0_iphoneos-arm.deb
+Size: 638
+MD5sum: a416243c018d8847f8ae7dc501381514
+SHA1: b87010f3d955d2da7d9399f152ef15a33f8626db
+SHA256: ddedbd8505806e4bcedaad19e960c1227dd55fada5b90fdff18b000fb7622701
+SHA512: 0929a09d51593b68dcb65372a09989b756e262bbcd610de39e7f3629441cd6c514753cf2792a2ecdad31c349a55fa15bdcf1f55557acc0724bd8e208e1bfc234
+Description: 修改健康app步数
+Name: VirtualStep 健康步数
+Author: kinken
+
 Package: cn.agricu.vsz.redeb
 Architecture: iphoneos-arm
 Version: 1.0.3
@@ -152,15 +263,34 @@ Section: Utilities
 Maintainer: T.Herak
 Depends: bash (>= 4.0.17-13), coreutils (>= 8.12-12p), grep (>= 2.5.4-3), sed (>= 4.1.5-7), gawk (>= 3.1.6-2p)
 Filename: ./debfiles//cn.agricu.vsz.redeb_1.0.3_iphoneos-arm.deb
-Size: 3626
-MD5sum: 4ecbb374c939eac3686407fc2ad8d1e1
-SHA1: 8a7ff216364beab874471c4f5aa93b68a18f6126
-SHA256: b42727bdf7c359e19212ae0445a304b282f54107cd9fde79b46bb29e7476802b
-SHA512: 13edfcff8f73b9bd9b6615406445cbbbae62281add8ce309cac29e30c30b82fec58cd43d89373e9d2ac0e33f0cf8cad2668adbbeb15a58b8eefdfc3b03d37633
+Size: 3620
+MD5sum: 29088d17cbb85325cc83020636b5708d
+SHA1: 7bd31e1cf4df2ef1e71b256efa912014afa7a41f
+SHA256: 29f9923f72871c724d0e63da8e10eac6b2c3c7c856b5736b4278ba301b72b243
+SHA512: 483d960b9ecd2678ed2ff8bfb677f3be29da8cf87fd9ff7b92c79b30571b39f81b5c9b53495199ee4fe04c974d11d78fb79c632786364dd574e3cbe6130fd588
 Description: 已安装的DEB文件提取插件
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.vsz.redeb
 Name: Redeb 提取本地插件
 Author: T.Herak
+
+Package: cn.agricu.wifipasswd
+Architecture: iphoneos-arm
+Version: 3.0.2
+Section: Utilities
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 4112
+Depends: firmware (>= 6.0)
+Replaces: com.abcydia.wifipasswords
+Filename: ./debfiles//cn.agricu.wifipasswd_3.0.2_iphoneos-arm.deb
+Size: 750
+MD5sum: 44e8b05954d07f6b1ed8cd1c316ce444
+SHA1: 7b5486d011fc1f72ee54391787843dea92296147
+SHA256: b7d1bbfbe91af1ea95ae334de01f3275eaee87f2d8cea7988f2d398b82c67872
+SHA512: b8c77528649f1a7ae032cb68babaa1b2409b0a624fb9e971b50378291b0288d30f1efaa971dd007184055c2a81821a9eda5ce7eca1ace14bf7c31ac993e8c09f
+Description: WiFi密码记录工具
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
+Name: WiFi Passwd 密码备忘录
+Author: Malcolm Hall <indiekiduk@gmail.com>
 
 Package: com.a3tweaks.flipswitch
 Architecture: iphoneos-arm
@@ -184,24 +314,30 @@ Name: Flipswitch
 Author: rpetrich <rpetrich+flipswitch@gmail.com>
 Icon: file:///Applications/Preferences.app/icon-table.png
 
-Package: com.abcydia.applocker
+Package: com.a3tweaks.flipswitch
 Architecture: iphoneos-arm
-Version: 2.5-1
-Section: Tweaks
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 648
-Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist (>= 1.4)
-Filename: ./debfiles//com.abcydia.applocker_2.5-1_iphoneos-arm.deb
-Size: 111478
-MD5sum: 030206044d859f0cc2fb0691f81d1813
-SHA1: 07f5ab6f66740772198b2e854e6409c0119b0f31
-SHA256: 3c91da960584c3f31680e07281475d752363d7f6280984ba98773e3e75a55e33
-SHA512: e510e702570d88adcc504824624f7ceee137dae18e8679c4476854f7689bada93b3f06ea3c5b480624950ec834fde5c81df03c5e86b114f5d1a6c64531969d79
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
-Name: Applocker 应用程序锁
-Author: Ori Kadosh <support@orikad.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-Icon: file:///Library/PreferenceBundles/applockerPrefBundle.bundle/applocker@2x.png
+Version: 1.0.16
+Section: System
+Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
+Installed-Size: 2408
+Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
+Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
+Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch, com.jakeashacks.realcc (<< 1.0.2)
+Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift, com.jakeashacks.realcc (<< 1.0.2)
+Filename: ./debfiles//com.a3tweaks.flipswitch_1.0.16_iphoneos-arm.deb
+Size: 611934
+MD5sum: bc5004446d31015130fcb149db92c018
+SHA1: e4d41247006718ef894b33af2268753237116e75
+SHA256: 39e2e6baa8b1ac60a7aa312de232a49ce1342d0a2ffd13f96eb8edf3c75325dc
+SHA512: 38ef59c126cd907ee19029d2922132f30fde49262a3ed70b659d268dfdef2df89bc43e43a52f642a84da964d2e96584474f9a8a60123dbda43fe4e70e501a10d
+Homepage: https://rpetrich.com/cydia/flipswitch/
+Description: Centralized toggle system for iOS
+Tag: purpose::extension, role::developer
+Name: Flipswitch
+Depiction: https://rpetrich.com/cydia/flipswitch/
+Author: rpetrich <rpetrich+flipswitch@gmail.com>
+Icon: file:///Applications/Preferences.app/icon-table.png
+dev: flipswitch
 
 Package: com.abcydia.bioprotectx
 Architecture: iphoneos-arm
@@ -317,23 +453,6 @@ Name: NtSpeed 悬浮网速
 Author: Julio / ABCydia
 Sponsor: ABCydia <http://www.abcydia.com>
 
-Package: com.abcydia.showtouch
-Architecture: iphoneos-arm
-Version: 1.0.3-1
-Section: Tweaks
-Maintainer: WZteam <admin@abcydia.com>
-Depends: mobilesubstrate, org.thebigboss.libcolorpicker
-Filename: ./debfiles//com.abcydia.showtouch_1.0.3-1_iphoneos-arm.deb
-Size: 115334
-MD5sum: f8d1559134df3f1e4136c9a3621ff96c
-SHA1: 8f39320ae47e0a7609af9c1127f9ef1c3e78957f
-SHA256: ea691cc8065daa550c1f410dacda39e36cf0bc3e34634037a6cada1d6a5de197
-SHA512: 4ec9f5fba61b2740e2da0c209544519834026b8a471323379c9659e878eb249de118bc356e0ca5b3766e1f305c9bc341fba6c9cd6e47b33e6b0047e4e7a9e78c
-Description: 显示触摸轨迹
-Name: ShowTouch 触摸轨迹
-Author: LonestarX
-Sponsor: ABCydia <http://www.abcydia.com>
-
 Package: com.abcydia.touchable10
 Architecture: iphoneos-arm
 Version: 0.0.2
@@ -342,11 +461,12 @@ Maintainer: WZteam <admin@abcydia.com>
 Installed-Size: 120
 Depends: mobilesubstrate
 Filename: ./debfiles//com.abcydia.touchable10_0.0.2_iphoneos-arm.deb
-Size: 4614
-MD5sum: 34e1f446b20a4915aef24a73013731f0
-SHA1: 09335706c7d0855a3b67f2b2bf82d5b3259d9539
-SHA256: 58b2f77ffb3c3a91d9f6417ef562365b4fd97b3e5d470cd1ba56b6a53695dd66
-SHA512: ac3dc853f091bdce070edc5a40dab7df3c9351dd51b0acb1a1d7a9303ed4f14e79d0c9ddf585951103cb6f61a8d902e4fc08c1557bf0233895910c957b9b0834
+Size: 6458
+MD5sum: 3fca14b3e919830c3cac571d14868275
+SHA1: 3b6946996ab5a28956b49ce7c322233f25b5a824
+SHA256: 5046751b3306f0ff9cfd9739284f4ebd9000c9e826a8ae37f47dd678cdf96f30
+SHA512: 623d55518fb1fd3aa7ad2c5ea5e4cddd972d76c14ac5f51bfcd529c9938cb923f99aa363c99349a51ac7d2c82c1f27693cead01abeabd2d6b20b8fc3f707cb21
+Description: 虚拟Home键，类似于iPhone7及后的home键
 Name: Touchable 虚拟Home键
 Author: pxcex <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
@@ -368,26 +488,6 @@ SHA512: 250f7946db71783148690742a2fd98d436dba41bce3460dc976a10d23cb182ea91e3fbea
 Name: App Admin 应用降级 (7~10)
 Author: UnlimApps Inc.
 Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.abcydia.wifipasswd
-Architecture: iphoneos-arm
-Version: 3.0.2
-Section: Utilities
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 4112
-Depends: firmware (>= 6.0)
-Replaces: com.abcydia.wifipasswords
-Filename: ./debfiles//com.abcydia.wifipasswd_3.0.2_iphoneos-arm.deb
-Size: 852972
-MD5sum: efcc639e54f797a24c97d585687e430c
-SHA1: 71ab3afb7861bec6f19e8ff352dee8a0ff773945
-SHA256: bf96d8427cc1e55c315e1d957790537a002b12e0344bc2529be6d74cdd6a660d
-SHA512: fc246fff4c15563f1ba13b28d94d83845809d815b70b169b79350770bd039ded4fe1ac28def45361d66a33cba68aea29ee4a759f769c11c0637424a5185065bd
-Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
-Name: WiFi Passwd 密码备忘录
-Author: Malcolm Hall <indiekiduk@gmail.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-Icon: file:///Applications/WiFiPasswords.app/Icon.png
 
 Package: com.clezz.powerdown
 Architecture: iphoneos-arm
@@ -588,58 +688,6 @@ Tag: purpose::library, cydia::obsolete, role::developer
 Name: uasharedtools (iOS 7-10)
 Author: UnlimApps Inc. <support@unlimapps.com>
 Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.wxhbts.ibreak.allowkeyboard-ios891011
-Architecture: iphoneos-arm
-Version: 1.3
-Section: 常用插件
-Depends: mobilesubstrate
-Filename: ./debfiles//com.wxhbts.ibreak.allowkeyboard-ios891011_1.3_iphoneos-arm.deb
-Size: 5690
-MD5sum: 98b5d66f11cbdb32a35fdcdee17da511
-SHA1: 2254d50c585d5857b2d07c37ab096b531d4d542c
-SHA256: 357b8e4191e824be6a132ffc7e21eb080a88f77594f5019b8a0d0695ad2bf268
-SHA512: dd56db8d181c463f096711a7c4b81541551aab9aebb22a8bda096aaf158fd801e3583a1da2dacd413926ffc42e361fb8bbdf3d9e3beb24a9ab28f254e6af5473
-Name: Allowkeyboard 第三方输入法
-Author: iBreak
-Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
-
-Package: com.wxhbts.mobileterminal
-Architecture: iphoneos-arm
-Version: 1.3-2
-Priority: standard
-Essential: no
-Section: 必备插件
-Installed-Size: 727
-Provides: mobileterminal, com.allenporter.mobileterminal, mobileterminal-applesdk, mobileterminal-applesdk7
-Pre-Depends: firmware (>= 4.3), dpkg (>= 1.14.25-8)
-Depends: bash, coreutils, ncurses, system-cmds, top, inetutils
-Conflicts: mobileterminal, com.allenporter.mobileterminal, mobileterminal-applesdk, mobileterminal-applesdk7
-Replaces: mobileterminal, com.allenporter.mobileterminal, mobileterminal-applesdk, mobileterminal-applesdk7
-Filename: ./debfiles//com.wxhbts.mobileterminal_1.3-2_iphoneos-arm.deb
-Size: 79318
-MD5sum: 03bfa3b35724b59cb48a7ad5efca69bf
-SHA1: 70dbe28c598b3c076eb66212e5cb985cf31bee5f
-SHA256: cb4c35c2a2f96a368fdb7da2225ef0f33b530723ba3d1c715fdce4b5b0c1e5d5
-SHA512: 9b92cb4e8feb78683665a0666f1591af5dd46a663d7da502e2dd11b40877817699dfadc1ee00042d4e952d8e047aaca520015d741045fb2e8fd8b1faaeccd517
-Name: Terminal 终端
-Author: Terminal <mobileterminal@googlegroups.com>
-
-Package: com.wxhbts.virtualstep
-Architecture: iphoneos-arm
-Version: 1.0.0
-Section: 常用插件
-Installed-Size: 320
-Depends: mobilesubstrate, preferenceloader
-Filename: ./debfiles//com.wxhbts.virtualstep_1.0.0_iphoneos-arm.deb
-Size: 11280
-MD5sum: d148c05ad89622bdc9f275450f907d12
-SHA1: e78ee579584ab21e73b101dab7a604d37a15713e
-SHA256: 1495ebf6126ab61f38f4c8dc9246ce4db60bc1012dd2fb51c72ddd8e5dfb8d3d
-SHA512: 3905681da09f26550ccf41af682f7f307fecc0ff6ddbee489584beaa0459c6cf9f7d199015472ffbc1dac203ebd2873882c5fce8048d2994ecbed9c626cc67a1
-Name: VirtualStep 健康步数
-Author: kinken
-Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 
 Package: coreutils
 Architecture: iphoneos-arm
@@ -1178,25 +1226,6 @@ Tag: role::hacker, purpose::library, compatible::ios7, compatible::ios8, compati
 Name: PreferenceLoader
 Author: Sam Bingner
 Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: ru.rejail.datameter
-Architecture: iphoneos-arm
-Version: 1.4-3
-Section: Tweaks
-Maintainer: ReJail <rejail@rejail.ru>
-Installed-Size: 1379
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
-Filename: ./debfiles//ru.rejail.datameter_1.4-3_iphoneos-arm.deb
-Size: 243510
-MD5sum: 2f253c1217ca81908d43b848ae4ba9f0
-SHA1: 9fbca89d87a9a817d4c1702e1541c1f5fb1edb82
-SHA256: 9313d8c11ebf8f68586a3dcdd0cf2c4aade1d5fdfcbeefe3c5a7139f21f97431
-SHA512: 075e88a813ea5e0aebafb466545c23634105c642183395374d10cbb2386216244916e98db5cad22465f3dd3f803acefd7219e24c04c7aa4226f060e25ddcd7ef
-Description: Интернет трафик в статус баре или плавающем окне
-Name: DataMeter
-Author: Minuit
-Depiction: https://rejail.ru/depiction.php?file=datameter
-SileoDepiction: https://rejail.ru/sileo/depiction.php?file=datameter
 
 Package: ru.rejail.limneosos
 Architecture: iphoneos-arm
