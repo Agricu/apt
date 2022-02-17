@@ -16,6 +16,24 @@ Name: Active 1429 4G iOS9/10
 Author: ABCydia <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: cn.agricu.cydia
+Architecture: iphoneos-arm
+Version: 2.1.1
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 200
+Depends: mobilesubstrate,firmware (>= 6.0)
+Filename: ./debfiles//cn.agricu.cydia_2.1.1_iphoneos-arm.deb
+Size: 16534
+MD5sum: 094535b93528437c8bed914b3bc11ecf
+SHA1: bccd154686330a6492aa7e9b412d7765b71ee32a
+SHA256: 2a36d635dabf64fef6711e77aae37e62661aab611ab4410d3fab1949246a4257
+SHA512: 8d4d7a87d902506696f83ac33cf572b9b375dc927cd80c6ff526ee5a232f44e05981d068b0a3ab0dc75ae54e2fadd793d45fcb2611f45631dc368d5d2260468c
+Description: 开启Cydia后台刷新及插件安装完成后关闭按钮
+Name: Cydia™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.cydia
+
 Package: cn.agricu.dumpdecrypter
 Architecture: iphoneos-arm
 Version: 1.1-9
@@ -528,6 +546,26 @@ Description: Community Offsets for UntetherHomeDepot
 Name: Community Offsets
 Author: stek29
 Icon:
+
+Package: jp.soh.reprovision
+Architecture: iphoneos-arm
+Version: 0.8.3~release
+Priority: optional
+Section: Utilities
+Maintainer: Soh Satoh
+Depends: firmware (>= 9.0)
+Conflicts: com.matchstic.reprovision
+Filename: ./debfiles//jp.soh.reprovision_0.8.3~release_iphoneos-arm.deb
+Size: 15477492
+MD5sum: 4ecea265b0b74c772bc94ab49a36e923
+SHA1: 21547146376e041b6ead427f1b53456f2bec4eab
+SHA256: eb1ec319ce0fab9584917eb3e8505121496c62b1f4826f6e7db60c6314661a21
+SHA512: 1372e062ede7fa07c6e9533ecd771026be86890c7ae571f21af9718b5857c2338e8d6a0251821125118e43a256a4ef3bbeaa77ea441cfec4b09ba33686a207f7
+Description: Re-sign applications on your device
+Name: ReProvision Reborn
+Author: Soh Satoh, Matt Clarke
+dev: Matt Clarke
+Icon: file:///Applications/ReProvision.app/AppIcon60x60@2x.png
 
 Package: kloader
 Architecture: iphoneos-arm
