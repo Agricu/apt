@@ -303,6 +303,27 @@ Name: RocketBootstrap
 Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: com.saurik.impactor
+Architecture: iphoneos-arm
+Version: 0.9.43
+Priority: optional
+Section: Utilities
+Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
+Depends: firmware (>= 7.1), firmware (<= 10.3.3)
+Breaks: com.saurik.patych (<< 1.0.1)
+Filename: ./debfiles//com.saurik.impactor_0.9.43_iphoneos-arm.deb
+Size: 519928
+MD5sum: 4f5df40720ba8ac3d35cdc150c50bbe5
+SHA1: 30beb07e3a9a94f493ab383d2f2cd650e05a0ac2
+SHA256: bd120559128f337f6a5da16bc02a11f07868cbea55d3a288ae45fa394269fd23
+SHA512: 4e1e79b86fa343de28242924cfd0598dce8d6eb26014617b1987ac7bfd69559cd0fbb0debaae846e8d8829e556322f27e4a84091335b75496c3e7d03abff0ea9
+Description: specific utility to unjailbreak most devices
+Tag: purpose::uikit, role::enduser
+Name: Cydia Eraser
+Author: Jay Freeman (saurik) <saurik@saurik.com>
+Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
+Icon: file:///Applications/Eraser.app/Icon-60.png
+
 Package: com.saurik.substrate.safemode
 Architecture: iphoneos-arm
 Version: 0.9.6001
