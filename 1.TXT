@@ -4,7 +4,7 @@
 git init
 git add .
 git add README.md
-git commit -m "217更新插件"
+git commit -m "217-1745更新插件"
 git branch -M main
 git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main

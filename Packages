@@ -295,28 +295,6 @@ Author: Malcolm Hall <indiekiduk@gmail.com>
 Package: com.a3tweaks.flipswitch
 Architecture: iphoneos-arm
 Version: 1.0.16
-Section: Development
-Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
-Installed-Size: 2408
-Provides: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift
-Depends: mobilesubstrate (>= 0.9.5001), com.rpetrich.rocketbootstrap (>= 1.0.9) | firmware (<< 7.0)
-Conflicts: com.rpetrich.donotdisturbtoggle (<= 1.0-1), com.jerryen.rotationlockflipswitch, com.jakeashacks.realcc (<< 1.0.2)
-Replaces: com.jerryen.rotationlockflipswitch, tw.garynil.ccfixer93, tw.hiraku.nightshift, com.jakeashacks.realcc (<< 1.0.2)
-Filename: ./debfiles//com.a3tweaks.flipswitch_1.0.16.deb
-Size: 300926
-MD5sum: 12bfb897a91340a733a0f80bd212ac06
-SHA1: 84e6f35fc99e5e24ad94898ed2de289d68c393e6
-SHA256: ce56d1cf556d60c7cef62d5022fffa7004587539067ce096431d923cce5ba4cc
-SHA512: 71b5c1493b19b1152103b0a647788ae570431efae1615a9450483f03654e8af6bf1ec39b67293bad94c6414c9a16b05f0d020e48307b23323a2e11c7355e6029
-Description: Centralized toggle system for iOS
-Tag: purpose::extension, role::developer
-Name: Flipswitch
-Author: rpetrich <rpetrich+flipswitch@gmail.com>
-Icon: file:///Applications/Preferences.app/icon-table.png
-
-Package: com.a3tweaks.flipswitch
-Architecture: iphoneos-arm
-Version: 1.0.16
 Section: System
 Maintainer: rpetrich & a3tweaks <rpetrich+flipswitch@gmail.com>
 Installed-Size: 2408
@@ -415,27 +393,6 @@ Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 Icon: file:///System/Library/CoreServices/SpringBoard.app/controlcenter.png
 
-Package: com.abcydia.instanttouchid
-Architecture: iphoneos-arm
-Version: 0.0.2
-Priority: optional
-Section: Tweaks
-Maintainer: WZteam <haoerloveyou@gmail.com>
-Installed-Size: 302
-Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Replaces: com.abcydia.instanttouchid
-Filename: ./debfiles//com.abcydia.instanttouchid_0.0.2_iphoneos-arm.deb
-Size: 52006
-MD5sum: b5376f36af247b608dab54617a3d3910
-SHA1: 14fab8b391e70863eb918219f6e7c1afa930fb38
-SHA256: 001ca52f8c69fb0348c505e699dfc547d2594a925fe259f21353a1b89fde2a3a
-SHA512: 2cd08ada9fab09747fc71f420a72ab9fc9baa0abf790e731153ab3b970b817e53138a1daf304325a1066c9e9334aea2af57b6cd02ca0f56c46b21f4da5b519b1
-Tag: purpose::extension, compatible::ios9
-Name: InstantTouchID 黑屏解锁
-Author: Joshua Rutschmann <joshua.rutschmann@gmx.de>
-Sponsor: Abcydia <apt.abcydia.com>
-Icon: file:///Library/PreferenceBundles/InstantTouchID.bundle/InstantTouchID@2x.png
-
 Package: com.abcydia.ntspeed
 Architecture: iphoneos-arm
 Version: 1.0-27
@@ -522,24 +479,6 @@ Pre-Depends: firmware (>= 7.0)
 Depends: mobilesubstrate
 Conflicts: com.gpp.ipcarrier, com.gpp.ipcarrieri6cntl
 Filename: ./debfiles//com.haoerloveyou.ccpatch_1.2.deb
-Size: 10760
-MD5sum: 6c69d3cb6d727f1f0971d487016cd71f
-SHA1: 7c5cfe0dbf8be1f86d4b9be51d0c0fb1325839ca
-SHA256: 2287e3812df7ce13c9958d044c16978ef81f748fc4f899cf3770f4dad4913699
-SHA512: 5931665c2499ea6dcbc0bcdbb6fd6eab640ec7e8cadc1c24db21e3c380d5ec2e0d2d549bae0eb6aff90aee84022e7f14d3d6897e865cf8c505ed6ef21179698a
-Name: CommCenter patch for iOS 7~10
-Author: HuWenDong <admin@abcydia.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-
-Package: com.haoerloveyou.ccpatch
-Architecture: iphoneos-arm
-Version: 1.2
-Section: Tweaks
-Maintainer: WZteam <admin@abcydia.com>
-Pre-Depends: firmware (>= 7.0)
-Depends: mobilesubstrate
-Conflicts: com.gpp.ipcarrier, com.gpp.ipcarrieri6cntl
-Filename: ./debfiles//com.haoerloveyou.ccpatch_1.2的副本.deb
 Size: 10760
 MD5sum: 6c69d3cb6d727f1f0971d487016cd71f
 SHA1: 7c5cfe0dbf8be1f86d4b9be51d0c0fb1325839ca
