@@ -1179,6 +1179,25 @@ Name: PreferenceLoader
 Author: Sam Bingner
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: ru.rejail.datameter
+Architecture: iphoneos-arm
+Version: 1.4-3
+Section: Tweaks
+Maintainer: ReJail <rejail@rejail.ru>
+Installed-Size: 1379
+Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
+Filename: ./debfiles//ru.rejail.datameter_1.4-3_iphoneos-arm.deb
+Size: 243510
+MD5sum: 2f253c1217ca81908d43b848ae4ba9f0
+SHA1: 9fbca89d87a9a817d4c1702e1541c1f5fb1edb82
+SHA256: 9313d8c11ebf8f68586a3dcdd0cf2c4aade1d5fdfcbeefe3c5a7139f21f97431
+SHA512: 075e88a813ea5e0aebafb466545c23634105c642183395374d10cbb2386216244916e98db5cad22465f3dd3f803acefd7219e24c04c7aa4226f060e25ddcd7ef
+Description: Интернет трафик в статус баре или плавающем окне
+Name: DataMeter
+Author: Minuit
+Depiction: https://rejail.ru/depiction.php?file=datameter
+SileoDepiction: https://rejail.ru/sileo/depiction.php?file=datameter
+
 Package: ru.rejail.limneosos
 Architecture: iphoneos-arm
 Version: 2.0.2
@@ -1262,24 +1281,4 @@ SHA1: 8925200a7cbf25852f5d6d45346be7dfeba26779
 SHA256: b2fa431b03ffd2f926dc4972c684c90c8a5f63af92b2674f634252d26c717d19
 SHA512: 2c9caa66c8cbc4e717483568f9ada1a68413574e9303fba77ae32c22e0297501732657cdad97c7a73d4d0a384352f488523d9177b154666186db4927b067e685
 Description: standard Windows compression tool
-
-Package: com.abcydia.datameter
-Architecture: iphoneos-arm
-Version: 1.4-3
-Section: Tweaks
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 1212
-Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
-Filename: ./debfiles//网速显示_1.4-3.deb
-Size: 243602
-MD5sum: f8ba472bb044361dae7ed0f69ad36958
-SHA1: 2dd43afc25a31f40429668a31746fa7aaf1c3725
-SHA256: e692810a84e364c94b329bbc914bbdf192005d1602b1280e6c166ebf6637d6ff
-SHA512: c826eab0e63632c4bea64e50b05bc8011b701ddca04df2c7da087c7830eeebac0eb9cc1833ae6b61ea07157849824fb3604042e91b4e04412cecaf2f60f716b7
-Description: 目前最实用美观的流量记录仪
-Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10, compatible::ios11
-Name: DataMeter 流量记录仪
-Author: Minuit <minuits@163.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-Icon: file:///Library/PreferenceBundles/DataMeterSettings.bundle/icon@2x.png
 
