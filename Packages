@@ -305,18 +305,18 @@ Sponsor: thebigboss.org <http://thebigboss.org>
 
 Package: com.saurik.impactor
 Architecture: iphoneos-arm
-Version: 0.9.43
+Version: 0.9.43.1
 Priority: optional
 Section: Utilities
 Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Depends: firmware (>= 7.1), firmware (<= 10.3.3)
 Breaks: com.saurik.patych (<< 1.0.1)
-Filename: ./debfiles//com.saurik.impactor_0.9.43_iphoneos-arm.deb
-Size: 519928
-MD5sum: 4f5df40720ba8ac3d35cdc150c50bbe5
-SHA1: 30beb07e3a9a94f493ab383d2f2cd650e05a0ac2
-SHA256: bd120559128f337f6a5da16bc02a11f07868cbea55d3a288ae45fa394269fd23
-SHA512: 4e1e79b86fa343de28242924cfd0598dce8d6eb26014617b1987ac7bfd69559cd0fbb0debaae846e8d8829e556322f27e4a84091335b75496c3e7d03abff0ea9
+Filename: ./debfiles//com.saurik.impactor_0.9.43.1_iphoneos-arm.deb
+Size: 519924
+MD5sum: 7a50de195e4df9c6438e2308c67809c7
+SHA1: 8c5ac0b988eb105250f15ed63821288e91529d46
+SHA256: 6d28482856cd503d81444bcbb3d03624c69efeeb799612fdc7e61921cdd81809
+SHA512: d5b494f9daa04dfc8f6b5fdb7824003057327ca0abcea239e4a11040a43699299682184e4cdbb61169d651baecd66eb5e6682b7c69cf524cf0f009761841f05b
 Description: specific utility to unjailbreak most devices
 Tag: purpose::uikit, role::enduser
 Name: Cydia Eraser
@@ -709,16 +709,16 @@ dev: netskao
 Package: netskao.goodwifi
 Architecture: iphoneos-arm
 Version: 0.0~beta6
-Section: Netskao-插件
+Section: System
 Maintainer: Nets
 Installed-Size: 540
 Depends: mobilesubstrate, preferenceloader
 Filename: ./debfiles//netskao.goodwifi_0.0~beta6_iphoneos-arm.deb
-Size: 98602
-MD5sum: 2953f0cf401e0e7c903a01c3745ae686
-SHA1: ea10cd46b63b9c037eddea2880df37654a510ea8
-SHA256: cf448159b7b876ee0f2a50d7e329f268844edce10ca6001e1b513667a77084d9
-SHA512: 827e8db36bbc4e589e77017c68b2e2e6964f8b04c60c76d75c118b9c865506947ed9c8ef312e49a0d313e9566acb53f3a24a323ee3d50652d8ab835e6505af50
+Size: 137058
+MD5sum: 9d0185d2c9a1b43e64ded2c361535bb0
+SHA1: bf6b9b8aac5de445e600f5b9f92bda01a9f49c6c
+SHA256: 8844457a235a164e3fdbf67b81228bbbf01205fbeeebc1d266f2a9dba397c17b
+SHA512: 32e1e2c96840ea066ef49d4a5c06db0b77d28fab7319d184342d35a4de8343cfac3de7056729eaf646fdabae0e8e2078370d64de346273410151b5cc18c8e9b3
 Description: GoodWiFi简体中文汉化版
 Name: GoodWiFi
 Author: julioverne
