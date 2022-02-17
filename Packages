@@ -87,6 +87,24 @@ Name: MTerminal 手机终端
 Author: lordscotland <admin@officialscheduler.com>
 Sponsor: Agricu <http://repo.agricu.cn>
 
+Package: cn.agricu.nosim
+Architecture: iphoneos-arm
+Version: 0.0.1-1
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 200
+Depends: firmware (>= 8.0), firmware (<= 11.4.1),mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles//cn.agricu.nosim_0.0.1-1_iphoneos-arm.deb
+Size: 3322
+MD5sum: 2221c50777d08ee4a356d5fa0b45a471
+SHA1: e571b53f4b5d4e2b5746e181baa8cebd10141bb4
+SHA256: ccd648e559da48335c4928e571f088bed9d010557a0cba50a667a8419515e16f
+SHA512: f8ea592f79c848f8c5268099e03fc5f6b8ee7e257798aaa7361ec169cc86840c41d3b3d00e635437cdc0b26e9bb3f99c2d639ec59c99546f882d6170baee140f
+Description: 屏蔽SIM卡未插卡提示，支持iOS8~iOS11
+Name: 屏蔽SIM卡未插卡提示
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.nosim
+
 Package: cn.agricu.touchflow
 Architecture: iphoneos-arm
 Version: 1.0.6
