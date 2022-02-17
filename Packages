@@ -184,6 +184,61 @@ Name: Flipswitch
 Author: rpetrich <rpetrich+flipswitch@gmail.com>
 Icon: file:///Applications/Preferences.app/icon-table.png
 
+Package: com.abcydia.applocker
+Architecture: iphoneos-arm
+Version: 2.5-1
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 648
+Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist (>= 1.4)
+Filename: ./debfiles//com.abcydia.applocker_2.5-1_iphoneos-arm.deb
+Size: 111478
+MD5sum: 030206044d859f0cc2fb0691f81d1813
+SHA1: 07f5ab6f66740772198b2e854e6409c0119b0f31
+SHA256: 3c91da960584c3f31680e07281475d752363d7f6280984ba98773e3e75a55e33
+SHA512: e510e702570d88adcc504824624f7ceee137dae18e8679c4476854f7689bada93b3f06ea3c5b480624950ec834fde5c81df03c5e86b114f5d1a6c64531969d79
+Tag: purpose::extension, compatible::ios7, compatible::ios8, compatible::ios9, compatible::ios10
+Name: Applocker 应用程序锁
+Author: Ori Kadosh <support@orikad.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///Library/PreferenceBundles/applockerPrefBundle.bundle/applocker@2x.png
+
+Package: com.abcydia.bioprotectx
+Architecture: iphoneos-arm
+Version: 2.3-10
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.bioprotect
+Filename: ./debfiles//com.abcydia.bioprotectx_2.3-10_iphoneos-arm.deb
+Size: 817644
+MD5sum: 074f75a5410549fd6e0f1899f0e376c4
+SHA1: 18e865d5e5bbc4e8108d6b9e46aca24f324046a4
+SHA256: 30d1ec43ab5f5b0e719d0684f4903bad43817a9e08aea82a04dde7ba5ccede0a
+SHA512: 04d7fd71a43484ba89350ea7e818c58274a67cb844756c9cb536992709891315f198cbb59043cd41364df8b49068beb09e3a0a786cb71092a6297a2da4527e74
+Description: 好用的指纹/面容 加密解密App
+Name: BioProtect X 指纹/面容加密
+Author: Elias Limneos
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.cylinder
+Architecture: iphoneos-arm
+Version: 1.1
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 3.0), mobilesubstrate (>= 0.9.6011), preferenceloader
+Filename: ./debfiles//com.abcydia.cylinder_1.1_iphoneos-arm.deb
+Size: 325274
+MD5sum: 47f06557c83731d1db24330e8b8abad0
+SHA1: 5d911483f09a80544b94fad662937d5e841f8ab1
+SHA256: 0f85cc5899ce5574d6d8f68a610b418636ac474f9a647a692ad24826606d15ef
+SHA512: d3011790e99e8b7e03155de1894c91a5b7c7ef458950be5005c7e3d6137f31cebce50e88969d4765c950c5348e85c8ba7853ecaf1c2a70f42bb08be1c2a44351
+Description: 多种高品质主屏幕3D翻页特效
+Name: Cylinder 桌面翻页特效
+Author: Reed Weichler
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///Library/PreferenceBundles/CylinderSettings.bundle/Icon@2x.png
+
 Package: com.abcydia.enableactivation4g
 Architecture: iphoneos-arm
 Version: 1.0.5
@@ -223,6 +278,116 @@ Name: FlipControl 控制中心增强
 Author: Ryan Petrich <rpetrich+flipcontrolcenter@gmail.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 Icon: file:///System/Library/CoreServices/SpringBoard.app/controlcenter.png
+
+Package: com.abcydia.instanttouchid
+Architecture: iphoneos-arm
+Version: 0.0.2
+Priority: optional
+Section: Tweaks
+Maintainer: WZteam <haoerloveyou@gmail.com>
+Installed-Size: 302
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Replaces: com.abcydia.instanttouchid
+Filename: ./debfiles//com.abcydia.instanttouchid_0.0.2_iphoneos-arm.deb
+Size: 52006
+MD5sum: b5376f36af247b608dab54617a3d3910
+SHA1: 14fab8b391e70863eb918219f6e7c1afa930fb38
+SHA256: 001ca52f8c69fb0348c505e699dfc547d2594a925fe259f21353a1b89fde2a3a
+SHA512: 2cd08ada9fab09747fc71f420a72ab9fc9baa0abf790e731153ab3b970b817e53138a1daf304325a1066c9e9334aea2af57b6cd02ca0f56c46b21f4da5b519b1
+Tag: purpose::extension, compatible::ios9
+Name: InstantTouchID 黑屏解锁
+Author: Joshua Rutschmann <joshua.rutschmann@gmx.de>
+Sponsor: Abcydia <apt.abcydia.com>
+Icon: file:///Library/PreferenceBundles/InstantTouchID.bundle/InstantTouchID@2x.png
+
+Package: com.abcydia.ntspeed
+Architecture: iphoneos-arm
+Version: 1.0-27
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 8.0), mobilesubstrate (>= 0.9.5001)
+Filename: ./debfiles//com.abcydia.ntspeed_1.0-27_iphoneos-arm.deb
+Size: 346562
+MD5sum: 5c7d384bd8288558d1ba5d28b848ff99
+SHA1: 254802b41b1dabde3a935c1b1c8d2c96ea605fad
+SHA256: 49e8fc4f9889e4da671fbd437ffbef15abd54d278fbdbb8e4005b14f822ce3ed
+SHA512: d44f6d43be7e896ca8f857842dc248c780b09821727d92603ebddc17bd6f753b4671ab51d385fd8675e44eab8776ac3791e557cd8baa5064106fca40690a6df2
+Description: 轻量级网速悬浮显示
+Name: NtSpeed 悬浮网速
+Author: Julio / ABCydia
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.showtouch
+Architecture: iphoneos-arm
+Version: 1.0.3-1
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Depends: mobilesubstrate, org.thebigboss.libcolorpicker
+Filename: ./debfiles//com.abcydia.showtouch_1.0.3-1_iphoneos-arm.deb
+Size: 115334
+MD5sum: f8d1559134df3f1e4136c9a3621ff96c
+SHA1: 8f39320ae47e0a7609af9c1127f9ef1c3e78957f
+SHA256: ea691cc8065daa550c1f410dacda39e36cf0bc3e34634037a6cada1d6a5de197
+SHA512: 4ec9f5fba61b2740e2da0c209544519834026b8a471323379c9659e878eb249de118bc356e0ca5b3766e1f305c9bc341fba6c9cd6e47b33e6b0047e4e7a9e78c
+Description: 显示触摸轨迹
+Name: ShowTouch 触摸轨迹
+Author: LonestarX
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.touchable10
+Architecture: iphoneos-arm
+Version: 0.0.2
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 120
+Depends: mobilesubstrate
+Filename: ./debfiles//com.abcydia.touchable10_0.0.2_iphoneos-arm.deb
+Size: 4614
+MD5sum: 34e1f446b20a4915aef24a73013731f0
+SHA1: 09335706c7d0855a3b67f2b2bf82d5b3259d9539
+SHA256: 58b2f77ffb3c3a91d9f6417ef562365b4fd97b3e5d470cd1ba56b6a53695dd66
+SHA512: ac3dc853f091bdce070edc5a40dab7df3c9351dd51b0acb1a1d7a9303ed4f14e79d0c9ddf585951103cb6f61a8d902e4fc08c1557bf0233895910c957b9b0834
+Name: Touchable 虚拟Home键
+Author: pxcex <admin@abcydia.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.uaupdatetools
+Architecture: iphoneos-arm
+Version: 1.0r-101
+Priority: optional
+Section: System
+Maintainer: WZteam <admin@abcydia.com>
+Depends: firmware (>= 7.0), mobilesubstrate, com.unlimapps.uasharedtools (>= 2.2r-60)
+Conflicts: it.marcocristalli.asupdatehider
+Filename: ./debfiles//com.abcydia.uaupdatetools_1.0r-101_iphoneos-arm.deb
+Size: 875016
+MD5sum: 3f907af169f1e21a78e84c1f049bdf2c
+SHA1: a204bd7cf9bb1673408620444824c8001dd134b0
+SHA256: c5d1ecd53c2d8770633ac50124bf2f23a7203670d7aa7088e721add692baae01
+SHA512: 250f7946db71783148690742a2fd98d436dba41bce3460dc976a10d23cb182ea91e3fbea5c631ebf49c5562ed494a92650e53278c146901f4455e73b31b696a2
+Name: App Admin 应用降级 (7~10)
+Author: UnlimApps Inc.
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.abcydia.wifipasswd
+Architecture: iphoneos-arm
+Version: 3.0.2
+Section: Utilities
+Maintainer: WZteam <admin@abcydia.com>
+Installed-Size: 4112
+Depends: firmware (>= 6.0)
+Replaces: com.abcydia.wifipasswords
+Filename: ./debfiles//com.abcydia.wifipasswd_3.0.2_iphoneos-arm.deb
+Size: 852972
+MD5sum: efcc639e54f797a24c97d585687e430c
+SHA1: 71ab3afb7861bec6f19e8ff352dee8a0ff773945
+SHA256: bf96d8427cc1e55c315e1d957790537a002b12e0344bc2529be6d74cdd6a660d
+SHA512: fc246fff4c15563f1ba13b28d94d83845809d815b70b169b79350770bd039ded4fe1ac28def45361d66a33cba68aea29ee4a759f769c11c0637424a5185065bd
+Tag: purpose::uikit, compatible::ios7, compatible::ios8, compatible::ios9
+Name: WiFi Passwd 密码备忘录
+Author: Malcolm Hall <indiekiduk@gmail.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+Icon: file:///Applications/WiFiPasswords.app/Icon.png
 
 Package: com.clezz.powerdown
 Architecture: iphoneos-arm
@@ -300,6 +465,49 @@ SHA512: 7636ffe6d4961f65b3583d4145ebd050d88f5a6748e376886d3423d08ae02d9cf12a801c
 Name: iFile 文件管理器
 Author: Carsten Heinelt <ifile@iphone.heinelt.eu>
 
+Package: com.linusyang.localeutf8
+Architecture: iphoneos-arm
+Version: 1.0-1
+Section: System
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 186
+Depends: profile.d
+Filename: ./debfiles//com.linusyang.localeutf8_1.0-1_iphoneos-arm.deb
+Size: 5448
+MD5sum: 44518f7af981fa092bc20a24976a0c7f
+SHA1: 45e005d644f4eff178e6eed37a9c1f76c35ac941
+SHA256: 6339ffcaf3e44f4c1e3821405032cfb961e0952940f8a1b76a357a9dbecdf548
+SHA512: 656d5220832c7a0522b66e3356fb707bba9b271a23be168db82a8d232c7566863ac0b653a57d5180efd018437cddb36ff7a06af1099e7208264100fcf0a06f7f
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Description: UTF-8 locale files for en_US and zh_CN
+Tag: purpose::console, role::hacker
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=localeutf8Dp
+Author: Linus Yang <laokongzi@gmail.com>
+Name: Locale Profiles in UTF-8
+dev: laokongzi
+
+Package: com.rpetrich.rocketbootstrap
+Architecture: iphoneos-arm
+Version: 1.0.10~beta1
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 596
+Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
+Filename: ./debfiles//com.rpetrich.rocketbootstrap_1.0.10~beta1_iphoneos-arm.deb
+Size: 38344
+MD5sum: b52417e29631c59cdb267379e71e2a69
+SHA1: 5839fce38b27e624ab5629d50fd543f30b473615
+SHA256: d06e18eefbfcb40f3e3b215bfbccaf34091fb30b2ccb1e4f6c519aa91d2b7248
+SHA512: 42b13ee05ce8766a02c3dc4779752c97a2bd379690c928101cc590a3204af7f322051badf1e810faf4ab2c0520d00abc1df8e4aea86473b2f7b69c213c900d8e
+Homepage: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Description: Support library allowing tweaks to communicate with sandboxed processes
+Tag: purpose::extension, role::developer
+Name: RocketBootstrap
+Depiction: https://www.rpetrich.com/cydia/rocketbootstrap/beta/
+Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: rpetrich
+
 Package: com.rpetrich.rocketbootstrap
 Architecture: iphoneos-arm
 Version: 1.0.9
@@ -360,6 +568,78 @@ Description: safe mode safety extension (safe)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Name: Substrate Safe Mode
 Depiction: http://cydia.saurik.com/info/com.saurik.substrate.safemode/
+
+Package: com.unlimapps.uasharedtools
+Architecture: iphoneos-arm
+Version: 2.2r-60
+Section: Development
+Maintainer: WZteam <admin@abcydia.com>
+Provides: com.unlimapps.uasharedtools.virtual
+Depends: mobilesubstrate, firmware (<< 11.0)
+Conflicts: com.yourepo.abo1bs.uasharedtoolsno-ads, com.hackyouriphone.uasharedtools, com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Replaces: com.unlimapps.uasharedtools.nostash, com.unlimapps.uasharedtools (<< 2.2r-36)
+Filename: ./debfiles//com.unlimapps.uasharedtools_2.2r-60_iphoneos-arm.deb
+Size: 22784762
+MD5sum: 5d28d3b9b02b01b3602e337d16245933
+SHA1: d46e0cb1ec1eaf0a4b47b082f4435a9da352681f
+SHA256: b76b3aaaba68d57d763ac619819169ebd2fcf7911fe1137736b110e4d327d433
+SHA512: 99097eb70ba27d7cd9a9348b750d78920378ae94b39b1c482c078e43cfa15c8a15b9c8b63c6c4fbd6c92ca69ab74bc136ee970e07dee99d451c61fc7e6b87cda
+Tag: purpose::library, cydia::obsolete, role::developer
+Name: uasharedtools (iOS 7-10)
+Author: UnlimApps Inc. <support@unlimapps.com>
+Sponsor: ABCydia <http://www.abcydia.com>
+
+Package: com.wxhbts.ibreak.allowkeyboard-ios891011
+Architecture: iphoneos-arm
+Version: 1.3
+Section: 常用插件
+Depends: mobilesubstrate
+Filename: ./debfiles//com.wxhbts.ibreak.allowkeyboard-ios891011_1.3_iphoneos-arm.deb
+Size: 5690
+MD5sum: 98b5d66f11cbdb32a35fdcdee17da511
+SHA1: 2254d50c585d5857b2d07c37ab096b531d4d542c
+SHA256: 357b8e4191e824be6a132ffc7e21eb080a88f77594f5019b8a0d0695ad2bf268
+SHA512: dd56db8d181c463f096711a7c4b81541551aab9aebb22a8bda096aaf158fd801e3583a1da2dacd413926ffc42e361fb8bbdf3d9e3beb24a9ab28f254e6af5473
+Name: Allowkeyboard 第三方输入法
+Author: iBreak
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
+
+Package: com.wxhbts.mobileterminal
+Architecture: iphoneos-arm
+Version: 1.3-2
+Priority: standard
+Essential: no
+Section: 必备插件
+Installed-Size: 727
+Provides: mobileterminal, com.allenporter.mobileterminal, mobileterminal-applesdk, mobileterminal-applesdk7
+Pre-Depends: firmware (>= 4.3), dpkg (>= 1.14.25-8)
+Depends: bash, coreutils, ncurses, system-cmds, top, inetutils
+Conflicts: mobileterminal, com.allenporter.mobileterminal, mobileterminal-applesdk, mobileterminal-applesdk7
+Replaces: mobileterminal, com.allenporter.mobileterminal, mobileterminal-applesdk, mobileterminal-applesdk7
+Filename: ./debfiles//com.wxhbts.mobileterminal_1.3-2_iphoneos-arm.deb
+Size: 79318
+MD5sum: 03bfa3b35724b59cb48a7ad5efca69bf
+SHA1: 70dbe28c598b3c076eb66212e5cb985cf31bee5f
+SHA256: cb4c35c2a2f96a368fdb7da2225ef0f33b530723ba3d1c715fdce4b5b0c1e5d5
+SHA512: 9b92cb4e8feb78683665a0666f1591af5dd46a663d7da502e2dd11b40877817699dfadc1ee00042d4e952d8e047aaca520015d741045fb2e8fd8b1faaeccd517
+Name: Terminal 终端
+Author: Terminal <mobileterminal@googlegroups.com>
+
+Package: com.wxhbts.virtualstep
+Architecture: iphoneos-arm
+Version: 1.0.0
+Section: 常用插件
+Installed-Size: 320
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles//com.wxhbts.virtualstep_1.0.0_iphoneos-arm.deb
+Size: 11280
+MD5sum: d148c05ad89622bdc9f275450f907d12
+SHA1: e78ee579584ab21e73b101dab7a604d37a15713e
+SHA256: 1495ebf6126ab61f38f4c8dc9246ce4db60bc1012dd2fb51c72ddd8e5dfb8d3d
+SHA512: 3905681da09f26550ccf41af682f7f307fecc0ff6ddbee489584beaa0459c6cf9f7d199015472ffbc1dac203ebd2873882c5fce8048d2994ecbed9c626cc67a1
+Name: VirtualStep 健康步数
+Author: kinken
+Icon: https://apt.wxhbts.com/icon/%E5%B8%B8%E7%94%A8%E6%8F%92%E4%BB%B6.png
 
 Package: coreutils
 Architecture: iphoneos-arm
@@ -791,6 +1071,28 @@ SHA256: 0e57f4b5968fc32c1fb56c1361d163a1ffdcda9173145551aff839cfc19be664
 SHA512: 6ece4b6fde15ed68c17d16f3590fbbbc928eba2cbb3936283f940663dc654822638667e72eb3e9dde782b138270daa81a1b96c4bf74604602594825c03d3cd7f
 Description: SSL library and cryptographic tools
 Name: OpenSSL
+
+Package: org.swift.libswift
+Architecture: iphoneos-arm
+Version: 5.0
+Section: Development
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 183124
+Depends: firmware (>= 7.0)
+Filename: ./debfiles//org.swift.libswift_5.0_iphoneos-arm.deb
+Size: 34559404
+MD5sum: 7a5f1ce4acf4277fd5e23217d53d9c4f
+SHA1: 7b49c7cceb60d95f9aeb121b2695a38a6c7bea2a
+SHA256: d78153853892d427f7bb55281dbee97f42835c654389d27834682aceb37af88a
+SHA512: 529d772b0802d177facbce9dfcd6776b086635c4650484c09bfdeaf5b6142fc5f312bdabf561076320920838e3a8aff86575aa230ecbaa4c64ab290ecc3574e7
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswiftDp
+Description: Swift runtime for iOS
+Tag: purpose::extension, compatible::ios12
+Name: libswift (stable)
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=libswiftDp
+Author: Kabir Oberai <oberai.kabir+libswift@gmail.com>
+Sponsor: thebigboss.org <http://thebigboss.org>
+dev: kabiroberai
 
 Package: org.thebigboss.dismissprogress
 Architecture: iphoneos-arm
