@@ -16,6 +16,22 @@ Name: Active 1429 4G iOS9/10
 Author: ABCydia <admin@abcydia.com>
 Sponsor: ABCydia <http://www.abcydia.com>
 
+Package: cn.agricu.addsource
+Architecture: iphoneos-arm
+Version: 2.3.2
+Section: Tweaks
+Maintainer: yuosaf01 & 3bod_syr
+Depends: firmware (>= 8.0), mobilesubstrate
+Filename: ./debfiles//cn.agricu.addsource_2.3.2_iphoneos-arm.deb
+Size: 43012
+MD5sum: 1d7e85f1c09bdfbd62d3c03d61f5fc99
+SHA1: 7a97ca33b50113d1cbf87a8c74908ab77729116e
+SHA256: 73196d70819eaba55454c9d09a630e903b8ce875620046073249dcc1cd048dca
+SHA512: 16360b13e61db7700987dd6ba29641c9e3a367255f2b953f7851539d0e3dee3af7cf4ae61ceab213d514b061642ea617e46bf3676d8e8dc55024ebd168f3d9f0
+Description: Cydia自动检测剪切板的URL地址，由Agricu精简，原版提供于BigBoss源:addsource
+Name: Cydia自动添加源
+Author: yuosaf01 & 3bod_syr
+
 Package: cn.agricu.cydia
 Architecture: iphoneos-arm
 Version: 2.1.1
