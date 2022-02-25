@@ -185,6 +185,24 @@ Author: rpetrich <rpetrich+flipswitch@gmail.com>
 Icon: file:///Applications/Preferences.app/icon-table.png
 dev: flipswitch
 
+Package: com.abcydia.bioprotectx
+Architecture: iphoneos-arm
+Version: 2.3-10
+Section: Tweaks
+Maintainer: WZteam <admin@abcydia.com>
+Depends: mobilesubstrate, preferenceloader
+Conflicts: net.limneos.bioprotect
+Filename: ./debfiles//com.abcydia.bioprotectx_2.3-10_iphoneos-arm.deb
+Size: 817622
+MD5sum: 24310523952d269d6ef20f41a8b9b834
+SHA1: 7a5690c00238dbba3dc1d33bb972dd8a841443e8
+SHA256: 1650cd89c5779d75fcf17116530d57d6261a3cb2dccf05f0b65e1635845e5c76
+SHA512: ca4dded3e3540095c9c086eceb7b45702f9b91d6e3f4083a08f34438cd874b19d071d28e663f4c347233061dc608fba1bdb6b6ffc2e55a8ce430bbeafbcdc587
+Description: 好用的指纹/面容 加密解密App
+Name: BioProtect（iOS 7～9）指纹/面容加密
+Author: Elias Limneos
+Sponsor: ABCydia <http://www.abcydia.com>
+
 Package: com.abcydia.cylinder
 Architecture: iphoneos-arm
 Version: 1.1
@@ -265,11 +283,11 @@ Maintainer: WZteam <admin@abcydia.com>
 Depends: firmware (>= 7.0), mobilesubstrate, com.unlimapps.uasharedtools (>= 2.2r-60)
 Conflicts: it.marcocristalli.asupdatehider
 Filename: ./debfiles//com.abcydia.uaupdatetools_1.0r-101_iphoneos-arm.deb
-Size: 875016
-MD5sum: 3f907af169f1e21a78e84c1f049bdf2c
-SHA1: a204bd7cf9bb1673408620444824c8001dd134b0
-SHA256: c5d1ecd53c2d8770633ac50124bf2f23a7203670d7aa7088e721add692baae01
-SHA512: 250f7946db71783148690742a2fd98d436dba41bce3460dc976a10d23cb182ea91e3fbea5c631ebf49c5562ed494a92650e53278c146901f4455e73b31b696a2
+Size: 861126
+MD5sum: 5d66357176e89b4d404a6f1d6d465e94
+SHA1: 12eec068cac5d9272786336bd22360aa8d56be78
+SHA256: fc66c3d8f35307a66dc74195553cf8ba6834f44e385be2eed978a2bdf86e4e75
+SHA512: ab91874e302fe28ab2c4cfd5089720e690500bd9a87645806ff06f6cb9f763c8a751e4fea9c243bcccb4c19123bce6785881a2e5c8a2a5090c4db96d05cbab84
 Name: App Admin 应用降级 (7~10)
 Author: UnlimApps Inc.
 Sponsor: ABCydia <http://www.abcydia.com>
@@ -325,38 +343,34 @@ Icon: file:///Library/QuickDo/Actions/com.clezz.powerdown/Icon@2x.png
 Package: com.hackyouriphone.applocker
 Architecture: iphoneos-arm
 Version: 2.5-1
-Section: HYI - Tweaks
+Section: Tweaks
 Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: firmware (>= 6.0), mobilesubstrate (>= 0.9.5000), preferenceloader, applist (>= 1.4)
 Filename: ./debfiles//com.hackyouriphone.applocker_2.5-1_iphoneos-arm.deb
-Size: 108584
-MD5sum: a173e4f1d04179e51485044ae5fd50ec
-SHA1: e691966f76d860d787b02041da7d8f66334b8e8d
-SHA256: cd0a8d4c30ecbf09acce2a78c3515621193f913c3edf0ff22f3063472dee373c
-SHA512: c42de921fcbdcd69c68cc6da9a08f1234abc66360319b4d7d2e9621dc6df2a9436194b9ccd01e2723d5b0456992cfaf8b4c07a5d1e1d9140f25a0e845a0b96a6
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=applocker
+Size: 156508
+MD5sum: 4c6d9b308146b6f55869dd9ffb266d43
+SHA1: 4a958378a12b0ab8fa0c2c82357f15fbc1c28b5c
+SHA256: 331f8cb903a6ac2686260c603821024c92611cf27ec131a94ad2255590507241
+SHA512: b82c34b73e783fe90cbd8c75051fdc68b768300714b216aa4c3db06284a0974849ac3aa6e30de8fd5e5aefd510a60b2358161c7e579384dcf9f1b5564a3b9438
 Description: Simple and cheap app-locking solution!
 Name: Applocker
 Author: Ori Kadosh <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=applocker
 
 Package: com.hackyouriphone.datameter
 Architecture: iphoneos-arm
 Version: 1.4-3
-Section: HYI - Tweaks
+Section: Tweaks
 Maintainer: iLeoLion <repo@hackyouriphone.org>
 Depends: firmware (>= 7.0), mobilesubstrate (>= 0.9.5000), preferenceloader (>= 2.2.2)
 Filename: ./debfiles//com.hackyouriphone.datameter_1.4-3_iphoneos-arm.deb
-Size: 243462
-MD5sum: ae313b8452dd0c7e90fa9d1f0d31a9c6
-SHA1: dcd5b8baa3fe30c16e3577ab199691df305dc255
-SHA256: 8f63ef8b3ecafd374d9a95a69be7a9c1176b1a557c169802460a59b2304a5695
-SHA512: c5c8320bad3a497985b3b3566e44102a6f1c0c1df471f5bc3e2ffed43269f0c58db99ebf388b37fecb377213cefd5329fc152a28da62a4e3b8ba714913dc6353
-Homepage: http://repo.hackyouriphone.org/depiction/depiction.php?filename=datameter
+Size: 381220
+MD5sum: 2e03a797cdde13ce70921fc38ac31ca3
+SHA1: c3dce54ce9c288dc68da557754e713d409b0fbe0
+SHA256: 11294c778bfbd009d2624d5baaf197144d9b4f03c63a8558fbcd42a655758b61
+SHA512: bb44e9512b8edfdd9b69b46f96da325a88f1bfc0b0f3633915bd764924b347909b9edffd1172e3791afa077c14e98e9528b6f6e8e0af5a5edac1ae2ac390c785
 Description: DataMeter for iOS 7-10 Notification Center
-Name: DataMeter
+Name: DataMeter流量记录
 Author: Minuit <repo@hackyouriphone.org>
-Depiction: http://repo.hackyouriphone.org/depiction/depiction.php?filename=datameter
 
 Package: com.haoerloveyou.ccpatch
 Architecture: iphoneos-arm
@@ -502,25 +516,6 @@ Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
 Sponsor: thebigboss.org <http://thebigboss.org>
 dev: rpetrich
 
-Package: com.rpetrich.rocketbootstrap
-Architecture: iphoneos-arm
-Version: 1.0.9
-Section: Development
-Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 596
-Depends: mobilesubstrate (>= 0.9.5000), firmware (>= 3.0)
-Filename: ./debfiles//com.rpetrich.rocketbootstrap_1.0.9.deb
-Size: 37122
-MD5sum: 281eda25fed6abef4e4a8ac6a18e11b9
-SHA1: 7432a02d8948f392761c6fb2ee1f1be75ed0a987
-SHA256: 369c6562270865b1b2f002981864e4b59022144e9335bb59ea02e1819f701986
-SHA512: ed52a3aeb2754334c6ba30bfdd8410b445a6e2f65b8c60425c8ec9dd85a4099c71e85b44b61fa46500bcf1b8bbef34916bee68a391b524ac310e067d3c18c668
-Description: Support library allowing tweaks to communicate with sandboxed processes
-Tag: purpose::extension, role::developer
-Name: RocketBootstrap
-Author: Ryan Petrich <rpetrich+rocketbootstrap@gmail.com>
-Sponsor: thebigboss.org <http://thebigboss.org>
-
 Package: com.saurik.impactor10
 Architecture: iphoneos-arm
 Version: 0.9.43.1
@@ -590,12 +585,12 @@ Section: System
 Maintainer: iBreak <ibreak2019@qq.com>
 Depends: mobilesubstrate
 Filename: ./debfiles//com.yourepo.ibreak.allowkeyboard_1.6_iphoneos-arm.deb
-Size: 5938
-MD5sum: 544d7cd83421d4dcc2d93f9a2021a852
-SHA1: b27a2453e8d2f74fa85d2b0985e940193250798c
-SHA256: 38c48acccb17924d39daa80b9f8771547389138d3d000bab2da90bb3d8e5a06d
-SHA512: e6ae9af5f55063420a80e8208d7f2d83812f1a70f89d7d68d32eb2c904c84a702c39bcd179c0e4043641236effe5531113ac1aa43c7bada64b48257561007e56
-Description: 允许第三方键盘获取优先级权限・Allow third-party keyboards to gain priority authority
+Size: 9532
+MD5sum: 85f1de5f4a6c8594fc6a085b8c1fca75
+SHA1: 488c333e34a6730bc5e334342120db326c8ddf5f
+SHA256: 736484e29440f7f31ef5d40dc6c78dc0a3a2f337e52ef6948008a0ddfe361042
+SHA512: 7474e7bcc26301b497718e4ec82444f65ce9b01a75e2d5c719f7e6bb8282e7b55be27cf2af331d7070b59cbfd147bfdc06045d0afceb0a92a68e4bbb3cee2aa0
+Description: 输入密码的时候，允许第三方键盘获取优先级权限・
 Name: Allow KeyBoard
 Author: iBreak <ibreak2019@qq.com>
 
@@ -1207,12 +1202,12 @@ Maintainer: ReJail <rejail@rejail.ru>
 Installed-Size: 212
 Depends: mobilesubstrate
 Filename: ./debfiles//ru.rejail.limneosos_2.0.2_iphoneos-arm.deb
-Size: 23932
-MD5sum: 82e3784afb0f404e95dc9ed8c65a18ee
-SHA1: 231f7feedac2e4680912b0e2d11ab31c7a7a0901
-SHA256: 874250a939b8ccd0276f1fdff6c6a8b0249bb3cff5b56faf8aeb35caea43f46a
-SHA512: e68f5cf685ec0b74124ef3d04f3cf6dceb28574fc8c5303239c40bcc0088cc02a3c5b29c5c80c8adef19325ba374ae2cd9a7db30ee6ccfd2f2f71b2c26851e98
-Description: Название само говорит за себя
+Size: 36136
+MD5sum: 6ec16266c2c69837ef8c6f7c2e971cb4
+SHA1: ac27bdbf05125c0b64edec6df5e4b55251892ea6
+SHA256: 1c7f0df074f5ccd0d3c9524a1ebe65a8a4d0357732208bcf68b1c56f4879de5d
+SHA512: 73a5e44982185d1656fd4cc4d9a48a2cb12fe018e1edc2d703c66174249001c06e563e51fb172e399e9534ccb4805f5413249f6e69162865a6e17e66303da4f3
+Description: limne源插件破解工具
 Name: Limneosos
 Author: ReJail <rejail@rejail.ru>
 Depiction: https://rejail.ru/depiction.php?file=limneosos
