@@ -4,7 +4,7 @@
 git init
 git add .
 git add README.md
-git commit -m "添加7、8完美越狱"
+git commit -m "常规更新"
 git branch -M main
 git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main
