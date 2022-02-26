@@ -18,16 +18,17 @@ Sponsor: ABCydia <http://www.abcydia.com>
 
 Package: cn.agricu.addsource
 Architecture: iphoneos-arm
-Version: 2.3.2
+Version: 2.3.2-1+debug
 Section: Tweaks
 Maintainer: yuosaf01 & 3bod_syr
-Depends: firmware (>= 8.0), mobilesubstrate
-Filename: ./debfiles//cn.agricu.addsource_2.3.2_iphoneos-arm.deb
-Size: 43012
-MD5sum: 1d7e85f1c09bdfbd62d3c03d61f5fc99
-SHA1: 7a97ca33b50113d1cbf87a8c74908ab77729116e
-SHA256: 73196d70819eaba55454c9d09a630e903b8ce875620046073249dcc1cd048dca
-SHA512: 16360b13e61db7700987dd6ba29641c9e3a367255f2b953f7851539d0e3dee3af7cf4ae61ceab213d514b061642ea617e46bf3676d8e8dc55024ebd168f3d9f0
+Installed-Size: 336
+Depends: firmware (>= 7.0), mobilesubstrate
+Filename: ./debfiles//cn.agricu.addsource_2.3.2-1+debug_iphoneos-arm.deb
+Size: 73104
+MD5sum: f51a8c01865a0e8b8d6f30dfdd8b75d8
+SHA1: cc3ed625018093e8abb512df69a570672859e79f
+SHA256: 31777d357e79e72b0667b3fe49cea3c7e56362dc6cb4b43a0ae0d91db995d414
+SHA512: 448ae6e273074831b65047ecb24654b058f91164d1ffc06b371b9c0b067d2aab290730dbc699b6a0e0a680c44e1f76b1ba0e67357faeb85574fc3877f3ba7732
 Description: Cydia自动检测剪切板的URL地址，由Agricu精简，原版提供于BigBoss源:addsource
 Name: Cydia自动添加源
 Author: yuosaf01 & 3bod_syr
@@ -38,16 +39,17 @@ Version: 2.1.1
 Section: Tweaks
 Maintainer: Agricu
 Installed-Size: 200
-Depends: mobilesubstrate, firmware (>= 6.0)
+Depends: mobilesubstrate,firmware (>= 6.0)
 Filename: ./debfiles//cn.agricu.cydia_2.1.1_iphoneos-arm.deb
-Size: 29128
-MD5sum: 58bad98ba3717dcfc6b082e55abdb695
-SHA1: 1e97a5846d93154b07675c98052cdfcb1370d29b
-SHA256: a2e5cde04edecf1e7bd6dbf0a4ef1365120a8c596cd91b1ace750a87159c82ef
-SHA512: a797a08758777dc570b660abdae27ae22909fb6612eed221bbb9a7b356da9b0a7eda2d64013b5481d29ebb292316bc8b767ca8ff76f8e59f90bef3e688aa7d9e
+Size: 16524
+MD5sum: d1a31ee819d2e3180acfd021fbd477c8
+SHA1: c32dfb982b11cfb150bdaf99db18843acba39acb
+SHA256: 3c416bb06fb7e09db4675023c1045c8a8e901d7912d30bd2a5827a16b429ef7a
+SHA512: 7ff36791f985bf0ab05a59918cce6b731544c725718b5db8d9e96a85ce01aca8864ae06c8c9da5fa1a92cc461adfd523433960f8f78a9c9e334f583ade131587
 Description: 开启Cydia后台刷新及插件安装完成后关闭按钮
 Name: Cydia™助手
 Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.cydia
 
 Package: cn.agricu.dumpdecrypter
 Architecture: iphoneos-arm
