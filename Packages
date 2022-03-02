@@ -41,11 +41,11 @@ Section: Utilities
 Maintainer: Agricu
 Depends: firmware (>= 6.0)
 Filename: ./debfiles//cn.agricu.boot_0.1_iphoneos-arm.deb
-Size: 844
-MD5sum: ffc38ab82abaf1836e6d8030079ac4c0
-SHA1: b8c3099cc829a9590f79f4d980a998a90a464bb6
-SHA256: a186be54912fe2a8042418a03324df1870574577887bd4a85459f491027d3de0
-SHA512: 416144207d662e6c727513e6c3a88cc973f8d8141b5cbd89ef27017e8f8b156b1ed32f1012673ee2c8da23106f92f8573a9c2862269e4f2d8b5b385e6967958b
+Size: 956
+MD5sum: 45073483d579126bda5b004201f670c2
+SHA1: a69102074877172c6867ad0c86ccf7cca972771b
+SHA256: ba08c1a24ead906d422685c45ab658e2dc8052b22fd2a6c38ddfc2a55f17e773
+SHA512: b41228ad9101fd769b835fbfbec245f88eebe226c6e68687aacb2ebee84d6fe567dca61efd6dfc8717d8ff6465110679b135b14d170a61a3796da11d2fd4d7b0
 Description: iOS7.1.X的iBoot降级恢复正常，终端命令：nvram -d boot-ramdisk
 Name: Boot-ramdisk
 Author: Agricu

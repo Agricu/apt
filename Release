@@ -7,5 +7,5 @@ Architecture: iphoneos-arm
 Components: main
 Description: Agricu's Tweaks
 MD5Sum:
- dbd2c66380dd91b684bd051a06d59fd8 55834 Packages
- be08697d96a6912576df83237bcbc4f6 19152 Packages.bz2
+ 3caee15718c8a434fc298038f8475b6f 55834 Packages
+ 2320bd1eebda4e5995d6f46e43a5ac2b 19164 Packages.bz2
