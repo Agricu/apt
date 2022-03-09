@@ -275,24 +275,6 @@ Name: NtSpeed 悬浮网速
 Author: Julio / ABCydia
 Sponsor: ABCydia <http://www.abcydia.com>
 
-Package: com.abcydia.touchable10
-Architecture: iphoneos-arm
-Version: 0.0.2
-Section: Tweaks
-Maintainer: WZteam <admin@abcydia.com>
-Installed-Size: 120
-Depends: mobilesubstrate
-Filename: ./debfiles//com.abcydia.touchable10_0.0.2_iphoneos-arm.deb
-Size: 6458
-MD5sum: 3fca14b3e919830c3cac571d14868275
-SHA1: 3b6946996ab5a28956b49ce7c322233f25b5a824
-SHA256: 5046751b3306f0ff9cfd9739284f4ebd9000c9e826a8ae37f47dd678cdf96f30
-SHA512: 623d55518fb1fd3aa7ad2c5ea5e4cddd972d76c14ac5f51bfcd529c9938cb923f99aa363c99349a51ac7d2c82c1f27693cead01abeabd2d6b20b8fc3f707cb21
-Description: 虚拟Home键，类似于iPhone7及后的home键
-Name: Touchable 虚拟Home键
-Author: pxcex <admin@abcydia.com>
-Sponsor: ABCydia <http://www.abcydia.com>
-
 Package: com.abcydia.uaupdatetools
 Architecture: iphoneos-arm
 Version: 1.0r-101
@@ -889,6 +871,30 @@ Description: untethered jailbreak based on pangu exploits
 Author: Pangu <axe@pangu.io>
 Name: Pangu 8.0-8.1 Untether
 Depiction: http://cydia.saurik.com/info/io.pangu.xuanyuansword8/
+
+Package: it.dreamcode.ft
+Architecture: iphoneos-arm
+Version: 0.0.6b2
+Priority: optional
+Section: Tweaks
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 257
+Depends: mobilesubstrate, preferenceloader, firmware (>= 10.0)
+Filename: ./debfiles//it.dreamcode.ft_0.0.6b2_iphoneos-arm.deb
+Size: 25920
+MD5sum: 07e45da2720c7c8117521c4ed3607b1a
+SHA1: d013b33ce65511d511add60f09ec40db15d0f2de
+SHA256: 54a8f0397ce3af9556bbe06bea00b0170e2bbc91e006d452030410ec6aea7985
+SHA512: 67d2040b27fd42cfa262c0ebc74d518e313cf8d83b0aeb7bead981591835ad1b3e031683ba0219d5b5d67c8e462351bd90b2484237631bb7f50c3c315f1feb4c
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fingertouchDp
+Description: 虚拟home键，保护home键
+Tag: purpose::extension, compatible::ios10, compatible::ios11
+Name: FingerTouch
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=fingertouchDp
+Sponsor: thebigboss.org <http://thebigboss.org>
+Author: Michele Primavera <support@dreamcode.it>
+dev: dreamcode
+Icon: file:///Library/PreferenceBundles/fingertouchprefs.bundle/icon@2x.png
 
 Package: jp.soh.reprovision
 Architecture: iphoneos-arm
