@@ -161,18 +161,18 @@ Author: Agricu
 
 Package: cn.agricu.powerdown
 Architecture: iphoneos-arm
-Version: 1.3.1
+Version: 1.3.2
 Section: Tweaks
 Maintainer: Agricu
 Installed-Size: 316
 Depends: mobilesubstrate, firmware (>= 8.0)
-Filename: ./debfiles//cn.agricu.powerdown_1.3.1_iphoneos-arm.deb
-Size: 99702
-MD5sum: bd0de873332250574d8390571d3309c4
-SHA1: 16d7f37f4255d11dcd9797940ea745f889b2b666
-SHA256: d7bd58660bae93e01cd934cc2c18211287b5545daacaf0a6421a926385407acb
-SHA512: 1e678455db48f6c4e52481ea93dcb55f3c8def29c9b6f449b789ab4424643856e96d2bdf5eda41a0719cce6276a1fb13304daf66df95c4bff3c632d659435284
-Description: PowerDown rewritten for iOS，本插件算是致敬Majun的Power down插件，本插件仅在iOS8.4.1(iPhone5)、iOS9.2(iPhone5)、iOS10.3.3(iPhone5，5s)、iOS12.1.1(iPad mini)
+Filename: ./debfiles//cn.agricu.powerdown_1.3.2_iphoneos-arm.deb
+Size: 99688
+MD5sum: f9d23ec8301b0252a54f11e9b7550473
+SHA1: 12e00bd4ed5d576467cbecd862ce325c07c73435
+SHA256: 8627c0cba2662ef765488119257a0db7893b0ebca51759253e50f40f624ad2ec
+SHA512: 3840e2501d9a78984ef33b7dda9f23537338fe8908e8816a63bbd52d5cad8538f9181124833461bd60ad698b89bac2fa37220743b6dfece905a2039cb91af39c
+Description: PowerDown rewritten for iOS，本插件算是致敬Majun的Power down插件，本插件兼容iOS8~iOS12。仅在iOS8.4.1(iPhone5)、iOS9.2(iPhone5)、iOS10.3.3(iPhone5，5s)、iOS12.1.1(iPad mini4)上测试通过！
 Name: PowerDown电源开关增强
 Author: Agricu
 
