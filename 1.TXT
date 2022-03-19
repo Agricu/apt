@@ -12,5 +12,3 @@ git push -u origin main
 
 git config --global user.email "1004571093@qq.com"
 git config --global user.name "Agricu"
-
-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
