@@ -564,14 +564,14 @@ Maintainer: Jay Freeman (saurik) <saurik@saurik.com>
 Depends: firmware (>= 10.2.1), firmware (<= 10.3.3)
 Breaks: com.saurik.patych (<< 1.0.1)
 Filename: ./debfiles//com.saurik.impactor10_0.9.43.1_iphoneos-arm.deb
-Size: 519944
-MD5sum: 4ad63a621187bfe5145126301ee3c5cc
-SHA1: 8118ee8e879319fb6a7a9b0fdbe12afd382cd6f5
-SHA256: e25e85e3a60916bc1656285a8d41393a689d954a610172f85d2211203f04332f
-SHA512: 55bc19803dd73a17a12193c21715bec7e9275f348dfe1b63e5c6e9fce9dcae77a8f677a97f3b78dfb2df1d30e751d2cd450da216fe963b390c1a6821af3334cc
+Size: 520152
+MD5sum: c284a3b792c7794ac6d5df6585f5a58c
+SHA1: 7a7ef955a03daf36efa645f89844a64fe02926b9
+SHA256: bff91eead7aa865dce73c6dd3594c7efd16233725a96733969ebe1249bb2c13d
+SHA512: 88d1ac92d37476e0cf2ee7150862199fdf5a6d56d57d0a918c3947626727b65437d35f83163f288bc5f7d581b247761af5d7e44b6c0cc55cbfe426c171fa8098
 Description: specific utility to unjailbreak most devices
 Tag: purpose::uikit, role::enduser
-Name: Cydia Eraser(iOS10.3.X)
+Name: Cydia Eraser(iOS 10.3.X)
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/com.saurik.impactor/
 Icon: file:///Applications/Eraser.app/Icon-60.png
