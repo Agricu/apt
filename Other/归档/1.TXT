@@ -10,5 +10,5 @@ git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main
 
 
-git config --global user.email "1004571093@qq.com"
-git config --global user.name "Agricu"
+
+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
