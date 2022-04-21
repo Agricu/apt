@@ -85,21 +85,21 @@ Author: yuosaf01 & 3bod_syr
 
 Package: cn.agricu.afc2d-arm64
 Architecture: iphoneos-arm
-Version: 1.1.5-1
+Version: 1.1.6-1
 Section: System
 Maintainer: BigBoss <bigboss@thebigboss.org>
-Installed-Size: 686
+Installed-Size: 539
 Provides: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Pre-Depends: dpkg (>= 1.14.25-8)
 Depends: cy+cpu.arm64, mobilesubstrate, ldid
 Conflicts: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
 Replaces: com.saurik.afc2d, net.angelxwind.afc2d-arm64, com.mrmadtw.afc2forios11, repo.feng.afc2add11, us.scw.afctwoadd, net.angelxwind.afc2ios70, afc2.25pp, afc2.25pp7, afc2.91, app.taig.afc2
-Filename: ./debfiles//cn.agricu.afc2d-arm64_1.1.5-1_iphoneos-arm.deb
-Size: 24214
-MD5sum: bae13c80e255496687233466b3d79847
-SHA1: 1cca7cf4e700fa4dfab393246ef83ebb83af83be
-SHA256: 5c1909ad8cb56706f471fc0279de2f22a2b649bfbc03f4179999c3220f20f2db
-SHA512: 5efe2cf103de8e9e3453368f8df86670fb3d0c94e1e16d1109e6ebfd506c1bfa0e64f7cf173a10ba44e9a726c988d45fda44631c577099e99892cc0433dddc15
+Filename: ./debfiles//cn.agricu.afc2d-arm64_1.1.6-1_iphoneos-arm.deb
+Size: 21800
+MD5sum: 6b246dc17c34f58ce33f11cd885a8a5e
+SHA1: e933fe915377c3d828807f5b5079787929c0565e
+SHA256: 9a39ff0a7bac422bd81e44ab936c71d3132862c5bdb6cf53189335920dbf3c88
+SHA512: 6881a1f4788960f5b43f1e23babcfc21664205ad0e823e1dd280d9fc3d6ea7d8ff61f3091dc8632fc743a28d32413d514e636868f49cda2b7b3185886a9018d6
 Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=afc2kpplessDp
 Description: Allow full file-system access over USB for all arm64 devices, especially useful for those on iOS 11 and above.
 Tag: purpose::daemon
