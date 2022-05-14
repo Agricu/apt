@@ -363,20 +363,20 @@ Name: 大众点评™助手
 Author: Agricu
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.dianping
 
-Package: cn.agricu.ding
+Package: cn.agricu.dingtalkhelper
 Architecture: iphoneos-arm
-Version: 0.0.1-1
+Version: 1.0.0-1
 Section: Tweaks
 Maintainer: Agricu
-Installed-Size: 144
+Installed-Size: 268
 Depends: mobilesubstrate
-Filename: ./debfiles//cn.agricu.ding_0.0.1-1_iphoneos-arm.deb
-Size: 26144
-MD5sum: 0462d9425d57ab9f0ec959a75136440d
-SHA1: 30edf4e196f81e530a8bed43992aecd30f032726
-SHA256: e209d07847ffb5e20a34250c6a20ca19edf3f001cfe914d7e72d7179985f72d2
-SHA512: fe8befb3855401e1a8a5a7f8e09a9f9398491dddbdea9e08204068089b03f5883b01f961568c128dd4e79330955dd7338d8831b8b301cd42d7603c705a461326
-Description: 钉钉打卡Cracks
+Filename: ./debfiles//cn.agricu.dingtalkhelper_1.0.0-1_iphoneos-arm.deb
+Size: 44246
+MD5sum: 6fcb95ef1968c5d4727ffa772f4dcca7
+SHA1: 1c97c6cdd9bc7996e9868ea793376c90b8812100
+SHA256: b3a314dcf44b82247ed9336348cfdf62cfe385790dbe32c4dba1ae7c8400656b
+SHA512: e398c8e5ea7907374e5b5dc88b1edd6ac3be2a6926d162171dc0fa0831198c1e533f85a0bb873538d6f1a29f74cc55eda50abfb33591c23bd58ff1927bed0dcb
+Description: 可自定义设置wifi或定位远程打卡的钉钉助手
 Name: 钉钉™助手
 Author: Agricu
 
