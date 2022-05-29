@@ -837,6 +837,23 @@ Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.realcc
 Author: Jake James <jakeashacks@gmail.com>
 Sponsor: thebigboss.org <http://thebigboss.org>
 
+Package: cn.agricu.stepnumber
+Architecture: iphoneos-arm
+Version: 1.0-6
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 432
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debfiles//cn.agricu.stepnumber_1.0-6_iphoneos-arm.deb
+Size: 27212
+MD5sum: d4256629411ebbe0fc4d4f8b230eef87
+SHA1: e68da155af8606c296e8863da932fc8ae714ca41
+SHA256: c4cfc8b5246edfc402868831821e858676ec8f9c73c53ca4c36ad7ca4bec3d20
+SHA512: 25508ff55fcb2582f1f17caff6ee77d9813053afa45ba65dedcd4d352cf280fccbb8ac626c2d6602259fc8c7bc5ec8f49502af8f6e6d5fc8724f0f48eaff46b8
+Description: A Health step count tweak.
+Name: StepNumber™助手
+Author: Agricu
+
 Package: cn.agricu.sysinfo
 Architecture: iphoneos-arm
 Version: 0.0.1
