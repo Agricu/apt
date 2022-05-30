@@ -327,6 +327,23 @@ Name: CyDown
 Author: julioverne <julioverne@me.com>
 Icon: file:///Library/PreferenceBundles/CyDownSettings.bundle/CyDown@2x.png
 
+Package: cn.agricu.cynoup
+Architecture: iphoneos-arm
+Version: 0.0.1-1
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 264
+Depends: mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles//cn.agricu.cynoup_0.0.1-1_iphoneos-arm.deb
+Size: 4284
+MD5sum: e9474c4c30ec9128d60a1fc8caac314e
+SHA1: a3cfa79f698c243aa50b2fe4ecadef695f3b938f
+SHA256: a1393bdc13d21c1d7e9ebc34854e3d2ae063342347f04697a981e394679c7267
+SHA512: 3c588727dcd7ad568f46cd4679798f68b10116b1b12e8d931b476771a60327a034836274901bc83c6f92e39bbdc41d913c07dd8e2501b858c75dfbdef5039305
+Description: Get rid of the updated version prompt of Cydown.
+Name: Cydown
+Author: Agricu
+
 Package: cn.agricu.daymaster
 Architecture: iphoneos-arm
 Version: 1.0
