@@ -335,13 +335,13 @@ Maintainer: Agricu
 Installed-Size: 264
 Depends: mobilesubstrate (>= 0.9.5000)
 Filename: ./debfiles//cn.agricu.cynoup_0.0.1-1_iphoneos-arm.deb
-Size: 4284
-MD5sum: e9474c4c30ec9128d60a1fc8caac314e
-SHA1: a3cfa79f698c243aa50b2fe4ecadef695f3b938f
-SHA256: a1393bdc13d21c1d7e9ebc34854e3d2ae063342347f04697a981e394679c7267
-SHA512: 3c588727dcd7ad568f46cd4679798f68b10116b1b12e8d931b476771a60327a034836274901bc83c6f92e39bbdc41d913c07dd8e2501b858c75dfbdef5039305
+Size: 4290
+MD5sum: 430151e7ac80ffaba48807726efb6a24
+SHA1: 2513a8554a24dd8d676a1e46e8cb88902fd3e0f2
+SHA256: aec1408f50a17338ebc73bd6ea4e45738ab18a52c96a9bf2d50a0a465b073eae
+SHA512: 57bbd400cf84e2968d7fde406415725245dd726c37bcac4ad989909af63fd1d703bf3f2a7c3409ebd63e5e06474c21468f5f875ab06a3ee70b6ffb7133c98878
 Description: Get rid of the updated version prompt of Cydown.
-Name: Cydown
+Name: Cydown Tips Version
 Author: Agricu
 
 Package: cn.agricu.daymaster
