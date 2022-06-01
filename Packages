@@ -2280,3 +2280,21 @@ SHA256: b2fa431b03ffd2f926dc4972c684c90c8a5f63af92b2674f634252d26c717d19
 SHA512: 2c9caa66c8cbc4e717483568f9ada1a68413574e9303fba77ae32c22e0297501732657cdad97c7a73d4d0a384352f488523d9177b154666186db4927b067e685
 Description: standard Windows compression tool
 
+Package: cn.agricu.fastcatvpn
+Architecture: iphoneos-arm
+Version: 1.0
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 340
+Depends: mobilesubstrate
+Filename: ./debfiles//快喵Crack.deb
+Size: 90000
+MD5sum: 3e346b6959801b3559cb7e2ce325cac1
+SHA1: f86550579b45de9ec82fa2c62c710e185061ccf6
+SHA256: e6dea4a77f7f8301c585b72d770efddc25db41d940573156071ff6ddcfc0527d
+SHA512: 85cdb5549e46501495bfdaf33566f25798275bfd27bf4bc33ff5d7ea63e37ac5df0ca39dc4c52d1ac23bc4e692d5be104cc77ae6f2594a64a37c0ce31000ae8c
+Description: 去除区域限制、开启VIP权限，时间结束至2099-5-1
+Name: FastCat_VPN™助手
+Author: Agricu
+Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.FastCat_VPN
+
