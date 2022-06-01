@@ -1953,6 +1953,24 @@ Name: Cydia Substrate
 Author: Jay Freeman (saurik) <saurik@saurik.com>
 Depiction: http://cydia.saurik.com/info/mobilesubstrate/
 
+Package: netskao.3dlookinloader
+Architecture: iphoneos-arm
+Version: 1.1-5.1
+Section: Netskao-Tweaks
+Maintainer: Nets
+Installed-Size: 1572
+Depends: firmware (>= 11.0), mobilesubstrate
+Filename: ./debfiles//netskao.3dlookinloader_1.1-5.1_iphoneos-arm.deb
+Size: 366256
+MD5sum: b282e51dbf863b0adcb6630995667651
+SHA1: 25774087f46891e7facf47a62ffc9eee0c86e8b3
+SHA256: 2111eb8308409b76c7ae5fc0b14f24bdca49d3e8323692de224864999932febb
+SHA512: cf8c5d5c688468bb9dab6492d47e31455551840562517daccc0fe4fbe4b2631db47990b0a34093f66ea3e70bbd2b2ac90f3337980d1b2e3b5335bc99b15f3d13
+Homepage: https://lookin.work/
+Description: Lookin动态加载工具，通过桌面长按图标唤出菜单启用，需搭配MacOS端使用或摇一摇启用手机端
+Name: 3DLookinLoader
+Author: Netskao
+
 Package: netskao.dumpdecrypter
 Architecture: iphoneos-arm
 Version: 1.2-9.4
