@@ -4,7 +4,7 @@
 git init
 git add .
 git add README.md
-git commit -m "添加3dlookinloader"
+git commit -m "更新StepNumber™助手"
 git branch -M main
 git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main
