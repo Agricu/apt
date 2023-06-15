@@ -1,0 +1,25 @@
+
+
+
+git init
+git add .
+git commit -m "更新OTA支持iOS5屏蔽"
+git branch -M main
+git remote add origin https://github.com/Agricu/apt.git
+git push -u origin main
+
+
+
+git config --global user.email "1004571093@qq.com"
+git config --global user.name "Agricu"
+
+git config --global credential.helper store
+
+
+git init
+git add .
+git add README.md
+git commit -m "首次提交"
+git branch -M main
+git remote add origin https://github.com/Agricu/apt.git
+git push -u origin main
