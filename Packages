@@ -1073,11 +1073,11 @@ Section: System
 Maintainer: Agricu
 Depends: mobilesubstrate,firmware (>= 5.0), firmware (<= 10.3.3)
 Filename: ./debfiles/cn.agricu.ota_1.0.2_iphoneos-arm.deb
-Size: 1086
-MD5sum: 0db36a60da46ff957df21135dea1bea3
-SHA1: 5e47a2ca0e2dd778fa05febc0b0299f69ecfebce
-SHA256: f8926812b2d0aed6580b6679a3a6a25d1233cdad6770d0260614a6a0d2828717
-SHA512: a40a484f64ba383a215b48ad512cb075995863c501df9c8f6cce8e945ea35c1ac14f8143a7f5fb623a6890f1c4c99376c2173de91e9a813b2bfb1c6a9ec5ae78
+Size: 1142
+MD5sum: 8ad34126c9127c27b4040a0f69cfd7a9
+SHA1: e54d064a677671be7106bf985f99e0327e2e64f3
+SHA256: b64fd9860d6c461cbf4471a62bdec73046bf072e0bfcd31ba29c2a1850013b91
+SHA512: 1a5355d6488dbf92c54b3f7b2a5eaaeb60504165dc5dd681221b878f6bfda3061dce38a820cea118a7b698928aa213930d36c50e8d3afe018ef35cc712fa13c4
 Description: 禁用设备的iOS-OTA更新检测，防止意外更新
 Name: 禁用OTA更新
 Author: Agricu
