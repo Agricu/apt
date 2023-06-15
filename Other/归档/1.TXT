@@ -3,7 +3,7 @@
 
 git init
 git add .
-git commit -m "更新OTA支持iOS5屏蔽"
+git commit -m "重新构建OTA禁用插件"
 git branch -M main
 git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main
