@@ -758,6 +758,23 @@ Name: LegacySlideToUnlock
 Depiction: http://repo.agricu.cn/description.html?id=cn.agricu.ios10lstu
 Author: CP Digital Darkroom
 
+Package: cn.agricu.ios9unlock
+Architecture: iphoneos-arm
+Version: 0.0.1-1+debug
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 220
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000)
+Filename: ./debfiles/cn.agricu.ios9unlock_0.0.1-1+debug_iphoneos-arm.deb
+Size: 7384
+MD5sum: 2d4849d2dd31559cbea5498487e3c94b
+SHA1: 4071f9f3aa906689492ab022cb512c980144050e
+SHA256: 10ef254d0b37b6e35feee7fe0808f402ce3ac6b97211bdd02da2998b26abb1a2
+SHA512: 7ce3c71ac6e5e4c40082d5815a8ff7ac2e6e7e590fa7464c51a781f0b1d2ac61f0cf799e551a1e539d4222df3586a5b5ca5a99ea03efbf32d59231774640db6d
+Description: 在iOS10上使用滑动解锁
+Name: iOS滑动解锁
+Author: Agricu
+
 Package: cn.agricu.jianshu
 Architecture: iphoneos-arm
 Version: 1.0
