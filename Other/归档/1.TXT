@@ -3,7 +3,7 @@
 
 git init
 git add .
-git commit -m "添加滑动解锁"
+git commit -m "添加sixls滑动解锁"
 git branch -M main
 git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main
@@ -24,3 +24,4 @@ git commit -m "首次提交"
 git branch -M main
 git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main
+
