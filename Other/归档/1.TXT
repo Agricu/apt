@@ -3,14 +3,14 @@
 
 git init
 git add .
-git commit -m "添加sixls滑动解锁"
+git commit -m "修改TrollstoreHelper"
 git branch -M main
 git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main
 
 
 
-git config --global user.email "1004571093@qq.com"
+git config --global user.email "xxxxx@qq.com"
 git config --global user.name "Agricu"
 
 

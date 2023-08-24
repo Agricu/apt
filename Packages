@@ -3883,18 +3883,18 @@ SileoDepiction: https://Invalidunit.github.io/repo/Depictions/com.nan.sutuplus/t
 
 Package: com.opa334.trollstorehelper
 Architecture: iphoneos-arm
-Version: 1.5.0
+Version: 1.5.1
 Section: Applications
 Maintainer: opa334
-Installed-Size: 676
-Filename: ./debfiles/com.opa334.trollstorehelper_1.5.0_iphoneos-arm.deb
-Size: 216412
-MD5sum: 5ab7ce2667b12a2b58a7f0c97dd42ce4
-SHA1: 35459907b3b1362e86c4a48fd28aa71df0102811
-SHA256: debffd5cedb097e0276af914b5fbb684831dac2490ce679f14c032084e0d8944
-SHA512: a3c6d337ffaabf9fa72b26d14f04ed43e8d4b50a49ab971116e0314ab2c03d6aed898c2eae31241122934980274fb9b2b3f843b7d7818d0204c26480f08e78b5
+Installed-Size: 680
+Filename: ./debfiles/com.opa334.trollstorehelper_1.5.1_iphoneos-arm.deb
+Size: 217174
+MD5sum: 12c4d4a199b1fb017e4b2bb9df027a34
+SHA1: c78f0be163cb34f2147bb62e5dd390f6a40a76fa
+SHA256: 2ade121645a85c3e0e7142dce99bcd2f10ee0ca28e1cd24d2fa415c5cb2db678
+SHA512: c10fb152fe5705116eeef556b429d0a8ae4141d4f84664673788700633ad35c048b02187426fcf05920d535fa60f87e47f371583f2b6dae46be02aa46a35c609
 Description: Helper utility to install and manage TrollStore!
-Name: TrollStore Helper
+Name: TrollStore Helper(国内优化)
 Author: opa334
 
 Package: com.ra9stuff.LiNUZE
