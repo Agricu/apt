@@ -1012,6 +1012,24 @@ Name: 网速显示
 SileoDepiction: http://repo.agricu.cn/depictions/cn.agricu.networksp.rootless/depiction.json
 Author: Agricu
 
+Package: cn.agricu.networksp
+Architecture: iphoneos-arm
+Version: 0.2.8
+Section: Tweaks
+Maintainer: Agricu
+Installed-Size: 284
+Depends: mobilesubstrate, firmware (>= 9.0)
+Filename: ./debfiles/cn.agricu.networksp_0.2.8_iphoneos-arm.deb
+Size: 23596
+MD5sum: d68f3d4a13982ab78060011578983ff3
+SHA1: 4b1ba41062192fc0105fd1e0d67fb30f763ce230
+SHA256: 170e014fdda0da803a5d29b3397f1eb0faa5f3e2b0012b631e68a0c5a09b173e
+SHA512: 7334a09b5152ce25fc36f33e6fb6d7fe4c81dd169c0b033fce5ad4293d6d287766bbe18e3a9ecc7f4fea9c52ba7c32a4c577b2d4bfb168be2abfab26cc3872fa
+Description: 在状态栏正下方显示网络速度，可拖动至任意位置
+Name: 网速显示
+SileoDepiction: http://repo.agricu.cn/depictions/cn.agricu.networksp.rootless/depiction.json
+Author: Agricu
+
 Package: cn.agricu.nosearch
 Architecture: iphoneos-arm
 Version: 1.0
@@ -4363,6 +4381,25 @@ Description: Don't install if you don't know what that is
 	Installing this on a production device is not recommended.
 Name: kloader
 Author: winocm, xerub
+
+Package: kokeshi.untether9x
+Architecture: iphoneos-arm
+Version: 1.0
+Priority: important
+Section: System
+Maintainer: kok3shiDev
+Depends: firmware (>= 9.2), firmware (<= 9.3.4), cy+cpu.arm64
+Conflicts:
+Filename: ./debfiles/kokeshi.untether9x_1.0_iphoneos-arm.deb
+Size: 49404
+MD5sum: 2cc32605cd3fc4c706cc89d86143c665
+SHA1: ca49e08d47bf7454de7fe2d6206ada05b4c0ffb1
+SHA256: 96ac1d2418fbd9cae466b3b8d21ccdd1328c597d3138d05ebfff378788e6a37c
+SHA512: f2d99c2ca4a89316ecd8cd83906c227f984da79ccf3984b522f39b4e276d3e44e63962e6b83b2a95d7e2852c535b9fb6fba0dbfff2767ee1c6c721f7f1aec7f6
+Description: arm64 untethered 9.2-9.3.4 jailbreak.
+Name: kokeshi 9.2-9.3.4 Untether
+Depiction: https://kok3shidoll.github.io/info/kokeshi.untether9x/
+Author: Clarity, kok3shidoll, staturnz
 
 Package: libcrippy-1.0.0
 Architecture: iphoneos-arm

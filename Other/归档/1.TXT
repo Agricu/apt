@@ -3,7 +3,7 @@
 
 git init
 git add .
-git commit -m "修改TrollstoreHelper"
+git commit -m "添加iOS9.2~9.3.4完美越狱补丁"
 git branch -M main
 git remote add origin https://github.com/Agricu/apt.git
 git push -u origin main
